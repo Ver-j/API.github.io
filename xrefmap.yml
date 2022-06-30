@@ -4736,6 +4736,320 @@ references:
   isSpec: "True"
   fullName: VFramework.Runtime.Log.Warning
   nameWithType: Log.Warning
+- uid: VFramework.Runtime.RectTransformAnchors
+  name: RectTransformAnchors
+  href: api/VFramework.Runtime.RectTransformAnchors.html
+  commentId: T:VFramework.Runtime.RectTransformAnchors
+  fullName: VFramework.Runtime.RectTransformAnchors
+  nameWithType: RectTransformAnchors
+- uid: VFramework.Runtime.RectTransformAnchors.Center_Bottom
+  name: Center_Bottom
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Center_Bottom
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Center_Bottom
+  fullName: VFramework.Runtime.RectTransformAnchors.Center_Bottom
+  nameWithType: RectTransformAnchors.Center_Bottom
+- uid: VFramework.Runtime.RectTransformAnchors.Center_Middle
+  name: Center_Middle
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Center_Middle
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Center_Middle
+  fullName: VFramework.Runtime.RectTransformAnchors.Center_Middle
+  nameWithType: RectTransformAnchors.Center_Middle
+- uid: VFramework.Runtime.RectTransformAnchors.Center_Stretch
+  name: Center_Stretch
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Center_Stretch
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Center_Stretch
+  fullName: VFramework.Runtime.RectTransformAnchors.Center_Stretch
+  nameWithType: RectTransformAnchors.Center_Stretch
+- uid: VFramework.Runtime.RectTransformAnchors.Center_Top
+  name: Center_Top
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Center_Top
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Center_Top
+  fullName: VFramework.Runtime.RectTransformAnchors.Center_Top
+  nameWithType: RectTransformAnchors.Center_Top
+- uid: VFramework.Runtime.RectTransformAnchors.Left_Bottom
+  name: Left_Bottom
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Left_Bottom
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Left_Bottom
+  fullName: VFramework.Runtime.RectTransformAnchors.Left_Bottom
+  nameWithType: RectTransformAnchors.Left_Bottom
+- uid: VFramework.Runtime.RectTransformAnchors.Left_Middle
+  name: Left_Middle
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Left_Middle
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Left_Middle
+  fullName: VFramework.Runtime.RectTransformAnchors.Left_Middle
+  nameWithType: RectTransformAnchors.Left_Middle
+- uid: VFramework.Runtime.RectTransformAnchors.Left_Stretch
+  name: Left_Stretch
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Left_Stretch
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Left_Stretch
+  fullName: VFramework.Runtime.RectTransformAnchors.Left_Stretch
+  nameWithType: RectTransformAnchors.Left_Stretch
+- uid: VFramework.Runtime.RectTransformAnchors.Left_Top
+  name: Left_Top
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Left_Top
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Left_Top
+  fullName: VFramework.Runtime.RectTransformAnchors.Left_Top
+  nameWithType: RectTransformAnchors.Left_Top
+- uid: VFramework.Runtime.RectTransformAnchors.Right_Bottom
+  name: Right_Bottom
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Right_Bottom
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Right_Bottom
+  fullName: VFramework.Runtime.RectTransformAnchors.Right_Bottom
+  nameWithType: RectTransformAnchors.Right_Bottom
+- uid: VFramework.Runtime.RectTransformAnchors.Right_Middle
+  name: Right_Middle
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Right_Middle
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Right_Middle
+  fullName: VFramework.Runtime.RectTransformAnchors.Right_Middle
+  nameWithType: RectTransformAnchors.Right_Middle
+- uid: VFramework.Runtime.RectTransformAnchors.Right_Stretch
+  name: Right_Stretch
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Right_Stretch
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Right_Stretch
+  fullName: VFramework.Runtime.RectTransformAnchors.Right_Stretch
+  nameWithType: RectTransformAnchors.Right_Stretch
+- uid: VFramework.Runtime.RectTransformAnchors.Rigth_Top
+  name: Rigth_Top
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Rigth_Top
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Rigth_Top
+  fullName: VFramework.Runtime.RectTransformAnchors.Rigth_Top
+  nameWithType: RectTransformAnchors.Rigth_Top
+- uid: VFramework.Runtime.RectTransformAnchors.Stretch_Bottom
+  name: Stretch_Bottom
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Stretch_Bottom
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Stretch_Bottom
+  fullName: VFramework.Runtime.RectTransformAnchors.Stretch_Bottom
+  nameWithType: RectTransformAnchors.Stretch_Bottom
+- uid: VFramework.Runtime.RectTransformAnchors.Stretch_Middle
+  name: Stretch_Middle
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Stretch_Middle
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Stretch_Middle
+  fullName: VFramework.Runtime.RectTransformAnchors.Stretch_Middle
+  nameWithType: RectTransformAnchors.Stretch_Middle
+- uid: VFramework.Runtime.RectTransformAnchors.Stretch_Stretch
+  name: Stretch_Stretch
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Stretch_Stretch
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Stretch_Stretch
+  fullName: VFramework.Runtime.RectTransformAnchors.Stretch_Stretch
+  nameWithType: RectTransformAnchors.Stretch_Stretch
+- uid: VFramework.Runtime.RectTransformAnchors.Stretch_Top
+  name: Stretch_Top
+  href: api/VFramework.Runtime.RectTransformAnchors.html#VFramework_Runtime_RectTransformAnchors_Stretch_Top
+  commentId: F:VFramework.Runtime.RectTransformAnchors.Stretch_Top
+  fullName: VFramework.Runtime.RectTransformAnchors.Stretch_Top
+  nameWithType: RectTransformAnchors.Stretch_Top
+- uid: VFramework.Runtime.RectTransformExtension
+  name: RectTransformExtension
+  href: api/VFramework.Runtime.RectTransformExtension.html
+  commentId: T:VFramework.Runtime.RectTransformExtension
+  fullName: VFramework.Runtime.RectTransformExtension
+  nameWithType: RectTransformExtension
+- uid: VFramework.Runtime.RectTransformExtension.SetAnchors(RectTransform,VFramework.Runtime.RectTransformAnchors)
+  name: SetAnchors(RectTransform, RectTransformAnchors)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetAnchors_RectTransform_VFramework_Runtime_RectTransformAnchors_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetAnchors(RectTransform,VFramework.Runtime.RectTransformAnchors)
+  fullName: VFramework.Runtime.RectTransformExtension.SetAnchors(RectTransform, VFramework.Runtime.RectTransformAnchors)
+  nameWithType: RectTransformExtension.SetAnchors(RectTransform, RectTransformAnchors)
+- uid: VFramework.Runtime.RectTransformExtension.SetAnchors*
+  name: SetAnchors
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetAnchors_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetAnchors
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetAnchors
+  nameWithType: RectTransformExtension.SetAnchors
+- uid: VFramework.Runtime.RectTransformExtension.SetHeight(RectTransform,System.Single)
+  name: SetHeight(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetHeight_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetHeight(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetHeight(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetHeight(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetHeight*
+  name: SetHeight
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetHeight_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetHeight
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetHeight
+  nameWithType: RectTransformExtension.SetHeight
+- uid: VFramework.Runtime.RectTransformExtension.SetPivot(RectTransform,System.Single,System.Single)
+  name: SetPivot(RectTransform, Single, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivot_RectTransform_System_Single_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPivot(RectTransform,System.Single,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivot(RectTransform, System.Single, System.Single)
+  nameWithType: RectTransformExtension.SetPivot(RectTransform, Single, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPivot(RectTransform,Vector2)
+  name: SetPivot(RectTransform, Vector2)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivot_RectTransform_Vector2_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPivot(RectTransform,Vector2)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivot(RectTransform, Vector2)
+  nameWithType: RectTransformExtension.SetPivot(RectTransform, Vector2)
+- uid: VFramework.Runtime.RectTransformExtension.SetPivot*
+  name: SetPivot
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivot_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPivot
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivot
+  nameWithType: RectTransformExtension.SetPivot
+- uid: VFramework.Runtime.RectTransformExtension.SetPivotX(RectTransform,System.Single)
+  name: SetPivotX(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivotX_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPivotX(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivotX(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetPivotX(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPivotX*
+  name: SetPivotX
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivotX_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPivotX
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivotX
+  nameWithType: RectTransformExtension.SetPivotX
+- uid: VFramework.Runtime.RectTransformExtension.SetPivotY(RectTransform,System.Single)
+  name: SetPivotY(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivotY_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPivotY(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivotY(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetPivotY(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPivotY*
+  name: SetPivotY
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPivotY_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPivotY
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPivotY
+  nameWithType: RectTransformExtension.SetPivotY
+- uid: VFramework.Runtime.RectTransformExtension.SetPos(RectTransform,System.Single,System.Single)
+  name: SetPos(RectTransform, Single, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPos_RectTransform_System_Single_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPos(RectTransform,System.Single,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPos(RectTransform, System.Single, System.Single)
+  nameWithType: RectTransformExtension.SetPos(RectTransform, Single, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPos(RectTransform,Vector2)
+  name: SetPos(RectTransform, Vector2)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPos_RectTransform_Vector2_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPos(RectTransform,Vector2)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPos(RectTransform, Vector2)
+  nameWithType: RectTransformExtension.SetPos(RectTransform, Vector2)
+- uid: VFramework.Runtime.RectTransformExtension.SetPos*
+  name: SetPos
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPos_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPos
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPos
+  nameWithType: RectTransformExtension.SetPos
+- uid: VFramework.Runtime.RectTransformExtension.SetPos3D(RectTransform,System.Single,System.Single,System.Single)
+  name: SetPos3D(RectTransform, Single, Single, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPos3D_RectTransform_System_Single_System_Single_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPos3D(RectTransform,System.Single,System.Single,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPos3D(RectTransform, System.Single, System.Single, System.Single)
+  nameWithType: RectTransformExtension.SetPos3D(RectTransform, Single, Single, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPos3D(RectTransform,Vector3)
+  name: SetPos3D(RectTransform, Vector3)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPos3D_RectTransform_Vector3_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPos3D(RectTransform,Vector3)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPos3D(RectTransform, Vector3)
+  nameWithType: RectTransformExtension.SetPos3D(RectTransform, Vector3)
+- uid: VFramework.Runtime.RectTransformExtension.SetPos3D*
+  name: SetPos3D
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPos3D_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPos3D
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPos3D
+  nameWithType: RectTransformExtension.SetPos3D
+- uid: VFramework.Runtime.RectTransformExtension.SetPosX(RectTransform,System.Single)
+  name: SetPosX(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPosX_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPosX(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPosX(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetPosX(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPosX*
+  name: SetPosX
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPosX_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPosX
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPosX
+  nameWithType: RectTransformExtension.SetPosX
+- uid: VFramework.Runtime.RectTransformExtension.SetPosY(RectTransform,System.Single)
+  name: SetPosY(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPosY_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPosY(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPosY(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetPosY(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPosY*
+  name: SetPosY
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPosY_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPosY
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPosY
+  nameWithType: RectTransformExtension.SetPosY
+- uid: VFramework.Runtime.RectTransformExtension.SetPosZ(RectTransform,System.Single)
+  name: SetPosZ(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPosZ_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetPosZ(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetPosZ(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetPosZ(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetPosZ*
+  name: SetPosZ
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetPosZ_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetPosZ
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetPosZ
+  nameWithType: RectTransformExtension.SetPosZ
+- uid: VFramework.Runtime.RectTransformExtension.SetRotation(RectTransform,Vector3)
+  name: SetRotation(RectTransform, Vector3)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetRotation_RectTransform_Vector3_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetRotation(RectTransform,Vector3)
+  fullName: VFramework.Runtime.RectTransformExtension.SetRotation(RectTransform, Vector3)
+  nameWithType: RectTransformExtension.SetRotation(RectTransform, Vector3)
+- uid: VFramework.Runtime.RectTransformExtension.SetRotation*
+  name: SetRotation
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetRotation_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetRotation
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetRotation
+  nameWithType: RectTransformExtension.SetRotation
+- uid: VFramework.Runtime.RectTransformExtension.SetScale(RectTransform,System.Single)
+  name: SetScale(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetScale_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetScale(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetScale(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetScale(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetScale(RectTransform,Vector3)
+  name: SetScale(RectTransform, Vector3)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetScale_RectTransform_Vector3_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetScale(RectTransform,Vector3)
+  fullName: VFramework.Runtime.RectTransformExtension.SetScale(RectTransform, Vector3)
+  nameWithType: RectTransformExtension.SetScale(RectTransform, Vector3)
+- uid: VFramework.Runtime.RectTransformExtension.SetScale*
+  name: SetScale
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetScale_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetScale
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetScale
+  nameWithType: RectTransformExtension.SetScale
+- uid: VFramework.Runtime.RectTransformExtension.SetWH(RectTransform,Vector2)
+  name: SetWH(RectTransform, Vector2)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetWH_RectTransform_Vector2_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetWH(RectTransform,Vector2)
+  fullName: VFramework.Runtime.RectTransformExtension.SetWH(RectTransform, Vector2)
+  nameWithType: RectTransformExtension.SetWH(RectTransform, Vector2)
+- uid: VFramework.Runtime.RectTransformExtension.SetWH*
+  name: SetWH
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetWH_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetWH
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetWH
+  nameWithType: RectTransformExtension.SetWH
+- uid: VFramework.Runtime.RectTransformExtension.SetWidth(RectTransform,System.Single)
+  name: SetWidth(RectTransform, Single)
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetWidth_RectTransform_System_Single_
+  commentId: M:VFramework.Runtime.RectTransformExtension.SetWidth(RectTransform,System.Single)
+  fullName: VFramework.Runtime.RectTransformExtension.SetWidth(RectTransform, System.Single)
+  nameWithType: RectTransformExtension.SetWidth(RectTransform, Single)
+- uid: VFramework.Runtime.RectTransformExtension.SetWidth*
+  name: SetWidth
+  href: api/VFramework.Runtime.RectTransformExtension.html#VFramework_Runtime_RectTransformExtension_SetWidth_
+  commentId: Overload:VFramework.Runtime.RectTransformExtension.SetWidth
+  isSpec: "True"
+  fullName: VFramework.Runtime.RectTransformExtension.SetWidth
+  nameWithType: RectTransformExtension.SetWidth
 - uid: VFramework.Runtime.Singleton`1
   name: Singleton<T>
   href: api/VFramework.Runtime.Singleton-1.html
