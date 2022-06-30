@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DataBucketBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DataBucketBase
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VFramework.Runtime.DataBucketBase">
+  
+  
+  <h1 id="VFramework_Runtime_DataBucketBase" data-uid="VFramework.Runtime.DataBucketBase" class="text-break">Class DataBucketBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DataBucketBase</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VFramework.Runtime.html">VFramework.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VFramework_Runtime_DataBucketBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DataBucketBase : SerializedScriptableObject</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VFramework_Runtime_DataBucketBase_AddDataRow_" data-uid="VFramework.Runtime.DataBucketBase.AddDataRow*"></a>
+  <h4 id="VFramework_Runtime_DataBucketBase_AddDataRow__1_System_Collections_Generic_List___0____0_" data-uid="VFramework.Runtime.DataBucketBase.AddDataRow``1(System.Collections.Generic.List{``0},``0)">AddDataRow&lt;T&gt;(List&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>向指定的存储桶中增加一条数据增加数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDataRow&lt;T&gt;(List&lt;T&gt; m_Bucket, T t)
+    where T : DataBucketRowBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td><span class="parametername">m_Bucket</span></td>
+        <td><p>需要添加数据的存储桶</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>需要添加的数据</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>存储桶数据类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_DataBucketBase_ChangeDataRow_" data-uid="VFramework.Runtime.DataBucketBase.ChangeDataRow*"></a>
+  <h4 id="VFramework_Runtime_DataBucketBase_ChangeDataRow__1_System_Collections_Generic_List___0____0___0_" data-uid="VFramework.Runtime.DataBucketBase.ChangeDataRow``1(System.Collections.Generic.List{``0},``0,``0)">ChangeDataRow&lt;T&gt;(List&lt;T&gt;, T, T)</h4>
+  <div class="markdown level1 summary"><p>修改指定存储桶中的数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeDataRow&lt;T&gt;(List&lt;T&gt; m_Bucket, T oldt, T newt)
+    where T : DataBucketBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td><span class="parametername">m_Bucket</span></td>
+        <td><p>需要修改数据的存储桶</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">oldt</span></td>
+        <td><p>被替换的数据</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">newt</span></td>
+        <td><p>替换的数据</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>存储桶类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_DataBucketBase_DestroyDataRow_" data-uid="VFramework.Runtime.DataBucketBase.DestroyDataRow*"></a>
+  <h4 id="VFramework_Runtime_DataBucketBase_DestroyDataRow__1_System_Collections_Generic_List___0____0_" data-uid="VFramework.Runtime.DataBucketBase.DestroyDataRow``1(System.Collections.Generic.List{``0},``0)">DestroyDataRow&lt;T&gt;(List&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>从指定的存储桶中删除一条数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DestroyDataRow&lt;T&gt;(List&lt;T&gt; m_Bucket, T t)
+    where T : DataBucketRowBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td><span class="parametername">m_Bucket</span></td>
+        <td><p>需要删除数据的存储桶</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>需要删除的数据</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>存储桶数据类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_DataBucketBase_GetDataRow_" data-uid="VFramework.Runtime.DataBucketBase.GetDataRow*"></a>
+  <h4 id="VFramework_Runtime_DataBucketBase_GetDataRow__1_System_Collections_Generic_List___0__System_Int32_" data-uid="VFramework.Runtime.DataBucketBase.GetDataRow``1(System.Collections.Generic.List{``0},System.Int32)">GetDataRow&lt;T&gt;(List&lt;T&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>在存储桶中获取一条数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetDataRow&lt;T&gt;(List&lt;T&gt; m_Bucket, int index)
+    where T : DataBucketRowBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td><span class="parametername">m_Bucket</span></td>
+        <td><p>需要操作的存储桶</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>数据索引</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>存储桶数据类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

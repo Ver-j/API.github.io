@@ -1,0 +1,1152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScrollViewLoop
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScrollViewLoop
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEngine.UI.ScrollViewLoop">
+  
+  
+  <h1 id="UnityEngine_UI_ScrollViewLoop" data-uid="UnityEngine.UI.ScrollViewLoop" class="text-break">Class ScrollViewLoop
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ScrollViewLoop</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IInitializePotentialDragHandler</span></div>
+    <div><span class="xref">IBeginDragHandler</span></div>
+    <div><span class="xref">IEndDragHandler</span></div>
+    <div><span class="xref">IDragHandler</span></div>
+    <div><span class="xref">IScrollHandler</span></div>
+    <div><span class="xref">ICanvasElement</span></div>
+    <div><span class="xref">ILayoutGroup</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEngine.UI.html">UnityEngine.UI</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="UnityEngine_UI_ScrollViewLoop_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ScrollViewLoop : UIBehaviour</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop__ctor_" data-uid="UnityEngine.UI.ScrollViewLoop.#ctor*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop__ctor" data-uid="UnityEngine.UI.ScrollViewLoop.#ctor">ScrollViewLoop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ScrollViewLoop()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_attachSnap_" data-uid="UnityEngine.UI.ScrollViewLoop.attachSnap*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_attachSnap" data-uid="UnityEngine.UI.ScrollViewLoop.attachSnap">attachSnap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.AttachSnap attachSnap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.AttachSnap.html">ScrollViewLoop.AttachSnap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_autoAttach_" data-uid="UnityEngine.UI.ScrollViewLoop.autoAttach*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_autoAttach" data-uid="UnityEngine.UI.ScrollViewLoop.autoAttach">autoAttach</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoAttach { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_content_" data-uid="UnityEngine.UI.ScrollViewLoop.content*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_content" data-uid="UnityEngine.UI.ScrollViewLoop.content">content</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_decelerationRate_" data-uid="UnityEngine.UI.ScrollViewLoop.decelerationRate*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_decelerationRate" data-uid="UnityEngine.UI.ScrollViewLoop.decelerationRate">decelerationRate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float decelerationRate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_elasticity_" data-uid="UnityEngine.UI.ScrollViewLoop.elasticity*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_elasticity" data-uid="UnityEngine.UI.ScrollViewLoop.elasticity">elasticity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float elasticity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_fixedCount_" data-uid="UnityEngine.UI.ScrollViewLoop.fixedCount*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_fixedCount" data-uid="UnityEngine.UI.ScrollViewLoop.fixedCount">fixedCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint fixedCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_horizontalNormalizedPosition_" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalNormalizedPosition*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_horizontalNormalizedPosition" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalNormalizedPosition">horizontalNormalizedPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float horizontalNormalizedPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_horizontalScrollbar_" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalScrollbar*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_horizontalScrollbar" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalScrollbar">horizontalScrollbar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scrollbar horizontalScrollbar { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Scrollbar</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_horizontalScrollbarSpacing_" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalScrollbarSpacing*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_horizontalScrollbarSpacing" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalScrollbarSpacing">horizontalScrollbarSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float horizontalScrollbarSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_horizontalScrollbarVisibility_" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalScrollbarVisibility*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_horizontalScrollbarVisibility" data-uid="UnityEngine.UI.ScrollViewLoop.horizontalScrollbarVisibility">horizontalScrollbarVisibility</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.ScrollbarVisibility horizontalScrollbarVisibility { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.ScrollbarVisibility.html">ScrollViewLoop.ScrollbarVisibility</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_inertia_" data-uid="UnityEngine.UI.ScrollViewLoop.inertia*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_inertia" data-uid="UnityEngine.UI.ScrollViewLoop.inertia">inertia</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool inertia { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_itemSize_" data-uid="UnityEngine.UI.ScrollViewLoop.itemSize*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_itemSize" data-uid="UnityEngine.UI.ScrollViewLoop.itemSize">itemSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 itemSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_loop_" data-uid="UnityEngine.UI.ScrollViewLoop.loop*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_loop" data-uid="UnityEngine.UI.ScrollViewLoop.loop">loop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool loop { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_margin_" data-uid="UnityEngine.UI.ScrollViewLoop.margin*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_margin" data-uid="UnityEngine.UI.ScrollViewLoop.margin">margin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectOffset margin { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_motionType_" data-uid="UnityEngine.UI.ScrollViewLoop.motionType*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_motionType" data-uid="UnityEngine.UI.ScrollViewLoop.motionType">motionType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.MotionType motionType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.MotionType.html">ScrollViewLoop.MotionType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_movementType_" data-uid="UnityEngine.UI.ScrollViewLoop.movementType*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_movementType" data-uid="UnityEngine.UI.ScrollViewLoop.movementType">movementType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.MovementType movementType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.MovementType.html">ScrollViewLoop.MovementType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_normalizedPosition_" data-uid="UnityEngine.UI.ScrollViewLoop.normalizedPosition*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_normalizedPosition" data-uid="UnityEngine.UI.ScrollViewLoop.normalizedPosition">normalizedPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 normalizedPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_numItems_" data-uid="UnityEngine.UI.ScrollViewLoop.numItems*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_numItems" data-uid="UnityEngine.UI.ScrollViewLoop.numItems">numItems</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint numItems { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_onItemRender_" data-uid="UnityEngine.UI.ScrollViewLoop.onItemRender*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_onItemRender" data-uid="UnityEngine.UI.ScrollViewLoop.onItemRender">onItemRender</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.ScrollRenderEvent onItemRender { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.ScrollRenderEvent.html">ScrollViewLoop.ScrollRenderEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_onValueChanged_" data-uid="UnityEngine.UI.ScrollViewLoop.onValueChanged*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_onValueChanged" data-uid="UnityEngine.UI.ScrollViewLoop.onValueChanged">onValueChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.ScrollRectEvent onValueChanged { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.ScrollRectEvent.html">ScrollViewLoop.ScrollRectEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_prefab_" data-uid="UnityEngine.UI.ScrollViewLoop.prefab*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_prefab" data-uid="UnityEngine.UI.ScrollViewLoop.prefab">prefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform prefab { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_scaleAnimation_" data-uid="UnityEngine.UI.ScrollViewLoop.scaleAnimation*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_scaleAnimation" data-uid="UnityEngine.UI.ScrollViewLoop.scaleAnimation">scaleAnimation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationCurve scaleAnimation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AnimationCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_scaleCurve_" data-uid="UnityEngine.UI.ScrollViewLoop.scaleCurve*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_scaleCurve" data-uid="UnityEngine.UI.ScrollViewLoop.scaleCurve">scaleCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool scaleCurve { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_scrollSensitivity_" data-uid="UnityEngine.UI.ScrollViewLoop.scrollSensitivity*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_scrollSensitivity" data-uid="UnityEngine.UI.ScrollViewLoop.scrollSensitivity">scrollSensitivity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float scrollSensitivity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_space_" data-uid="UnityEngine.UI.ScrollViewLoop.space*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_space" data-uid="UnityEngine.UI.ScrollViewLoop.space">space</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 space { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_velocity_" data-uid="UnityEngine.UI.ScrollViewLoop.velocity*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_velocity" data-uid="UnityEngine.UI.ScrollViewLoop.velocity">velocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 velocity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_verticalNormalizedPosition_" data-uid="UnityEngine.UI.ScrollViewLoop.verticalNormalizedPosition*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_verticalNormalizedPosition" data-uid="UnityEngine.UI.ScrollViewLoop.verticalNormalizedPosition">verticalNormalizedPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float verticalNormalizedPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_verticalScrollbar_" data-uid="UnityEngine.UI.ScrollViewLoop.verticalScrollbar*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_verticalScrollbar" data-uid="UnityEngine.UI.ScrollViewLoop.verticalScrollbar">verticalScrollbar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scrollbar verticalScrollbar { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Scrollbar</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_verticalScrollbarSpacing_" data-uid="UnityEngine.UI.ScrollViewLoop.verticalScrollbarSpacing*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_verticalScrollbarSpacing" data-uid="UnityEngine.UI.ScrollViewLoop.verticalScrollbarSpacing">verticalScrollbarSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float verticalScrollbarSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_verticalScrollbarVisibility_" data-uid="UnityEngine.UI.ScrollViewLoop.verticalScrollbarVisibility*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_verticalScrollbarVisibility" data-uid="UnityEngine.UI.ScrollViewLoop.verticalScrollbarVisibility">verticalScrollbarVisibility</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScrollViewLoop.ScrollbarVisibility verticalScrollbarVisibility { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.UI.ScrollViewLoop.ScrollbarVisibility.html">ScrollViewLoop.ScrollbarVisibility</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_viewport_" data-uid="UnityEngine.UI.ScrollViewLoop.viewport*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_viewport" data-uid="UnityEngine.UI.ScrollViewLoop.viewport">viewport</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform viewport { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_BackTop_" data-uid="UnityEngine.UI.ScrollViewLoop.BackTop*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_BackTop" data-uid="UnityEngine.UI.ScrollViewLoop.BackTop">BackTop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BackTop()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_IsActive_" data-uid="UnityEngine.UI.ScrollViewLoop.IsActive*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_IsActive" data-uid="UnityEngine.UI.ScrollViewLoop.IsActive">IsActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_LateUpdate_" data-uid="UnityEngine.UI.ScrollViewLoop.LateUpdate*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_LateUpdate" data-uid="UnityEngine.UI.ScrollViewLoop.LateUpdate">LateUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void LateUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_OnDisable_" data-uid="UnityEngine.UI.ScrollViewLoop.OnDisable*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_OnDisable" data-uid="UnityEngine.UI.ScrollViewLoop.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDisable()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_OnEnable_" data-uid="UnityEngine.UI.ScrollViewLoop.OnEnable*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_OnEnable" data-uid="UnityEngine.UI.ScrollViewLoop.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_OnRectTransformDimensionsChange_" data-uid="UnityEngine.UI.ScrollViewLoop.OnRectTransformDimensionsChange*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_OnRectTransformDimensionsChange" data-uid="UnityEngine.UI.ScrollViewLoop.OnRectTransformDimensionsChange">OnRectTransformDimensionsChange()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRectTransformDimensionsChange()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_RefreshList_" data-uid="UnityEngine.UI.ScrollViewLoop.RefreshList*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_RefreshList" data-uid="UnityEngine.UI.ScrollViewLoop.RefreshList">RefreshList()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshList()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_ResetList_" data-uid="UnityEngine.UI.ScrollViewLoop.ResetList*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_ResetList" data-uid="UnityEngine.UI.ScrollViewLoop.ResetList">ResetList()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetList()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_ScrollTo_" data-uid="UnityEngine.UI.ScrollViewLoop.ScrollTo*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_ScrollTo_System_Int32_System_Single_" data-uid="UnityEngine.UI.ScrollViewLoop.ScrollTo(System.Int32,System.Single)">ScrollTo(Int32, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollTo(int index, float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_SetContentAnchoredPosition_" data-uid="UnityEngine.UI.ScrollViewLoop.SetContentAnchoredPosition*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_SetContentAnchoredPosition_Vector2_" data-uid="UnityEngine.UI.ScrollViewLoop.SetContentAnchoredPosition(Vector2)">SetContentAnchoredPosition(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetContentAnchoredPosition(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_SetDirty_" data-uid="UnityEngine.UI.ScrollViewLoop.SetDirty*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_SetDirty" data-uid="UnityEngine.UI.ScrollViewLoop.SetDirty">SetDirty()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetDirty()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_SetDirtyCaching_" data-uid="UnityEngine.UI.ScrollViewLoop.SetDirtyCaching*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_SetDirtyCaching" data-uid="UnityEngine.UI.ScrollViewLoop.SetDirtyCaching">SetDirtyCaching()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetDirtyCaching()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_SetLayoutHorizontal_" data-uid="UnityEngine.UI.ScrollViewLoop.SetLayoutHorizontal*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_SetLayoutHorizontal" data-uid="UnityEngine.UI.ScrollViewLoop.SetLayoutHorizontal">SetLayoutHorizontal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetLayoutHorizontal()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_SetLayoutVertical_" data-uid="UnityEngine.UI.ScrollViewLoop.SetLayoutVertical*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_SetLayoutVertical" data-uid="UnityEngine.UI.ScrollViewLoop.SetLayoutVertical">SetLayoutVertical()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetLayoutVertical()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_UI_ScrollViewLoop_StopMovement_" data-uid="UnityEngine.UI.ScrollViewLoop.StopMovement*"></a>
+  <h4 id="UnityEngine_UI_ScrollViewLoop_StopMovement" data-uid="UnityEngine.UI.ScrollViewLoop.StopMovement">StopMovement()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopMovement()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IInitializePotentialDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IBeginDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IEndDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IScrollHandler</span>
+  </div>
+  <div>
+      <span class="xref">ICanvasElement</span>
+  </div>
+  <div>
+      <span class="xref">ILayoutGroup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

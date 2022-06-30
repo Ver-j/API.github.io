@@ -1,0 +1,1386 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AudioProcessorCenter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AudioProcessorCenter
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VFramework.Runtime.AudioProcessorCenter">
+  
+  
+  <h1 id="VFramework_Runtime_AudioProcessorCenter" data-uid="VFramework.Runtime.AudioProcessorCenter" class="text-break">Class AudioProcessorCenter
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="VFramework.Runtime.Singleton-1.html">Singleton</a>&lt;<a class="xref" href="VFramework.Runtime.AudioProcessorCenter.html">AudioProcessorCenter</a>&gt;</div>
+    <div class="level2"><span class="xref">AudioProcessorCenter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="VFramework.Runtime.Singleton-1.html#VFramework_Runtime_Singleton_1_singleton">Singleton&lt;AudioProcessorCenter&gt;.singleton</a>
+    </div>
+    <div>
+      <a class="xref" href="VFramework.Runtime.Singleton-1.html#VFramework_Runtime_Singleton_1_Initialize">Singleton&lt;AudioProcessorCenter&gt;.Initialize()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VFramework.Runtime.html">VFramework.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VFramework_Runtime_AudioProcessorCenter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AudioProcessorCenter : Singleton&lt;AudioProcessorCenter&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_BackgroundSource_" data-uid="VFramework.Runtime.AudioProcessorCenter.BackgroundSource*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_BackgroundSource" data-uid="VFramework.Runtime.AudioProcessorCenter.BackgroundSource">BackgroundSource</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;int, AudioSource&gt; BackgroundSource { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">AudioSource</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_BackgroundVolume_" data-uid="VFramework.Runtime.AudioProcessorCenter.BackgroundVolume*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_BackgroundVolume" data-uid="VFramework.Runtime.AudioProcessorCenter.BackgroundVolume">BackgroundVolume</h4>
+  <div class="markdown level1 summary"><p>获取/设置 背景音乐的音量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BackgroundVolume { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_IsPause_" data-uid="VFramework.Runtime.AudioProcessorCenter.IsPause*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_IsPause" data-uid="VFramework.Runtime.AudioProcessorCenter.IsPause">IsPause</h4>
+  <div class="markdown level1 summary"><p>全局暂停</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPause { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_MultipSource_" data-uid="VFramework.Runtime.AudioProcessorCenter.MultipSource*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_MultipSource" data-uid="VFramework.Runtime.AudioProcessorCenter.MultipSource">MultipSource</h4>
+  <div class="markdown level1 summary"><p>多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, AudioSource&gt; MultipSource { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">AudioSource</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_MultipVolume_" data-uid="VFramework.Runtime.AudioProcessorCenter.MultipVolume*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_MultipVolume" data-uid="VFramework.Runtime.AudioProcessorCenter.MultipVolume">MultipVolume</h4>
+  <div class="markdown level1 summary"><p>获取/设置  多通道音频音量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MultipVolume { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_Mute_" data-uid="VFramework.Runtime.AudioProcessorCenter.Mute*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_Mute" data-uid="VFramework.Runtime.AudioProcessorCenter.Mute">Mute</h4>
+  <div class="markdown level1 summary"><p>全局静音</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Mute { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_SingletonSource_" data-uid="VFramework.Runtime.AudioProcessorCenter.SingletonSource*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_SingletonSource" data-uid="VFramework.Runtime.AudioProcessorCenter.SingletonSource">SingletonSource</h4>
+  <div class="markdown level1 summary"><p>单通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;int, AudioSource&gt; SingletonSource { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">AudioSource</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_SingletonVolume_" data-uid="VFramework.Runtime.AudioProcessorCenter.SingletonVolume*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_SingletonVolume" data-uid="VFramework.Runtime.AudioProcessorCenter.SingletonVolume">SingletonVolume</h4>
+  <div class="markdown level1 summary"><p>获取/设置  单通道音频音量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SingletonVolume { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_WorldSource_" data-uid="VFramework.Runtime.AudioProcessorCenter.WorldSource*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_WorldSource" data-uid="VFramework.Runtime.AudioProcessorCenter.WorldSource">WorldSource</h4>
+  <div class="markdown level1 summary"><p>世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;GameObject, AudioSource&gt; WorldSource { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">GameObject</span>, <span class="xref">AudioSource</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_WorldVolume_" data-uid="VFramework.Runtime.AudioProcessorCenter.WorldVolume*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_WorldVolume" data-uid="VFramework.Runtime.AudioProcessorCenter.WorldVolume">WorldVolume</h4>
+  <div class="markdown level1 summary"><p>获取/设置 世界音频音量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float WorldVolume { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_ClearBackgroundSounde_" data-uid="VFramework.Runtime.AudioProcessorCenter.ClearBackgroundSounde*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_ClearBackgroundSounde" data-uid="VFramework.Runtime.AudioProcessorCenter.ClearBackgroundSounde">ClearBackgroundSounde()</h4>
+  <div class="markdown level1 summary"><p>清除背景音乐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBackgroundSounde()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_ClearSingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.ClearSingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_ClearSingleSound" data-uid="VFramework.Runtime.AudioProcessorCenter.ClearSingleSound">ClearSingleSound()</h4>
+  <div class="markdown level1 summary"><p>清除单声道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSingleSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_Init_" data-uid="VFramework.Runtime.AudioProcessorCenter.Init*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_Init_Transform_System_Int32_" data-uid="VFramework.Runtime.AudioProcessorCenter.Init(Transform,System.Int32)">Init(Transform, Int32)</h4>
+  <div class="markdown level1 summary"><p>初始化控制中心</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Init(Transform trans, int maxSize = 20)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">trans</span></td>
+        <td><p>父级</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td><p>音频队列容量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_InitBackgroundSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.InitBackgroundSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_InitBackgroundSound_Transform_" data-uid="VFramework.Runtime.AudioProcessorCenter.InitBackgroundSound(Transform)">InitBackgroundSound(Transform)</h4>
+  <div class="markdown level1 summary"><p>初始化背景音乐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitBackgroundSound(Transform trans)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">trans</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_InitMultipSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.InitMultipSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_InitMultipSound_Transform_" data-uid="VFramework.Runtime.AudioProcessorCenter.InitMultipSound(Transform)">InitMultipSound(Transform)</h4>
+  <div class="markdown level1 summary"><p>多通道音频初始化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitMultipSound(Transform trans)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">trans</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_InitSingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.InitSingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_InitSingleSound_Transform_" data-uid="VFramework.Runtime.AudioProcessorCenter.InitSingleSound(Transform)">InitSingleSound(Transform)</h4>
+  <div class="markdown level1 summary"><p>单通道音频组件初始化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitSingleSound(Transform trans)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">trans</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PauseBackgroundSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseBackgroundSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PauseBackgroundSound" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseBackgroundSound">PauseBackgroundSound()</h4>
+  <div class="markdown level1 summary"><p>暂停背景音乐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseBackgroundSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PauseMultipSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseMultipSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PauseMultipSound" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseMultipSound">PauseMultipSound()</h4>
+  <div class="markdown level1 summary"><p>暂停多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseMultipSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PauseSingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseSingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PauseSingleSound" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseSingleSound">PauseSingleSound()</h4>
+  <div class="markdown level1 summary"><p>暂停单通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseSingleSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PauseWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PauseWorldSound" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseWorldSound">PauseWorldSound()</h4>
+  <div class="markdown level1 summary"><p>暂停所有世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseWorldSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PauseWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PauseWorldSound_GameObject_" data-uid="VFramework.Runtime.AudioProcessorCenter.PauseWorldSound(GameObject)">PauseWorldSound(GameObject)</h4>
+  <div class="markdown level1 summary"><p>暂停单个世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseWorldSound(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>目标物体</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlayBackgroundSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayBackgroundSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlayBackgroundSound_AudioClip_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayBackgroundSound(AudioClip,System.Boolean)">PlayBackgroundSound(AudioClip, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放背景音乐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayBackgroundSound(AudioClip clip, bool isLoop = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音频</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoop</span></td>
+        <td><p>是否循环</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSound_AudioClip_System_Boolean_System_Single_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSound(AudioClip,System.Boolean,System.Single,System.Boolean)">PlayMultipSound(AudioClip, Boolean, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayMultipSound(AudioClip clip, bool isLoop = false, float pitch = 1F, bool isEcho = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音频</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoop</span></td>
+        <td><p>是否循环</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pitch</span></td>
+        <td><p>音调变化</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isEcho</span></td>
+        <td><p>是否需要音频回声</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSoundReturn_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSoundReturn*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSoundReturn_AudioClip_System_Boolean_System_Single_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSoundReturn(AudioClip,System.Boolean,System.Single,System.Boolean)">PlayMultipSoundReturn(AudioClip, Boolean, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayMultipSoundReturn(AudioClip clip, bool isLoop = false, float pitch = 1F, bool isEcho = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音源</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoop</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pitch</span></td>
+        <td><p>音调</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isEcho</span></td>
+        <td><p>是否有效果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSoundReturn_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSoundReturn*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSoundReturn_AudioClip_System_Single_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSoundReturn(AudioClip,System.Single,System.Boolean)">PlayMultipSoundReturn(AudioClip, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PlayMultipSoundReturn(AudioClip clip, float pitch = 1F, bool isEcho = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音频</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pitch</span></td>
+        <td><p>音调变化</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isEcho</span></td>
+        <td><p>是否需要音频回声</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSoundReturnObj_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSoundReturnObj*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlayMultipSoundReturnObj_AudioClip_System_Boolean_System_Single_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayMultipSoundReturnObj(AudioClip,System.Boolean,System.Single,System.Boolean)">PlayMultipSoundReturnObj(AudioClip, Boolean, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放多通道音频【不建议使用】</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject PlayMultipSoundReturnObj(AudioClip clip, bool isLoop = false, float pitch = 1F, bool isEcho = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoop</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pitch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isEcho</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlaySingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlaySingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlaySingleSound_AudioClip_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlaySingleSound(AudioClip)">PlaySingleSound(AudioClip)</h4>
+  <div class="markdown level1 summary"><p>播放单通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PlaySingleSound(AudioClip clip)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音频</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlaySingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlaySingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlaySingleSound_AudioClip_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlaySingleSound(AudioClip,System.Boolean)">PlaySingleSound(AudioClip, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放单通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlaySingleSound(AudioClip clip, bool isLoop)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音频</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoop</span></td>
+        <td><p>是否循环</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_PlayWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_PlayWorldSound_GameObject_AudioClip_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.PlayWorldSound(GameObject,AudioClip,System.Boolean)">PlayWorldSound(GameObject, AudioClip, Boolean)</h4>
+  <div class="markdown level1 summary"><p>播放世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayWorldSound(GameObject target, AudioClip clip, bool isLoop = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>目标</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td><span class="parametername">clip</span></td>
+        <td><p>音频</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoop</span></td>
+        <td><p>是否循环</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RecoverBackgroundSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverBackgroundSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RecoverBackgroundSound" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverBackgroundSound">RecoverBackgroundSound()</h4>
+  <div class="markdown level1 summary"><p>恢复背景音乐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverBackgroundSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RecoverMultipSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverMultipSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RecoverMultipSound" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverMultipSound">RecoverMultipSound()</h4>
+  <div class="markdown level1 summary"><p>恢复多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverMultipSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RecoverSingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverSingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RecoverSingleSound" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverSingleSound">RecoverSingleSound()</h4>
+  <div class="markdown level1 summary"><p>恢复单通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverSingleSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RecoverWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RecoverWorldSound" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverWorldSound">RecoverWorldSound()</h4>
+  <div class="markdown level1 summary"><p>恢复所有世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverWorldSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RecoverWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RecoverWorldSound_GameObject_" data-uid="VFramework.Runtime.AudioProcessorCenter.RecoverWorldSound(GameObject)">RecoverWorldSound(GameObject)</h4>
+  <div class="markdown level1 summary"><p>恢复单个世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverWorldSound(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>目标</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_ReleaseWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.ReleaseWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_ReleaseWorldSound" data-uid="VFramework.Runtime.AudioProcessorCenter.ReleaseWorldSound">ReleaseWorldSound()</h4>
+  <div class="markdown level1 summary"><p>回收世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseWorldSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_ReleaseWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.ReleaseWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_ReleaseWorldSound_GameObject_" data-uid="VFramework.Runtime.AudioProcessorCenter.ReleaseWorldSound(GameObject)">ReleaseWorldSound(GameObject)</h4>
+  <div class="markdown level1 summary"><p>回收单个音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseWorldSound(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RemoveSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RemoveSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RemoveSound" data-uid="VFramework.Runtime.AudioProcessorCenter.RemoveSound">RemoveSound()</h4>
+  <div class="markdown level1 summary"><p>移除所有的多通道音效</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RemoveSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RemoveSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RemoveSound_GameObject_" data-uid="VFramework.Runtime.AudioProcessorCenter.RemoveSound(GameObject)">RemoveSound(GameObject)</h4>
+  <div class="markdown level1 summary"><p>移除单个音效</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSound(GameObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_RemoveSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.RemoveSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_RemoveSound_System_Int32_" data-uid="VFramework.Runtime.AudioProcessorCenter.RemoveSound(System.Int32)">RemoveSound(Int32)</h4>
+  <div class="markdown level1 summary"><p>移除单个音效</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSound(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_SetMultipSoundMute_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetMultipSoundMute*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_SetMultipSoundMute_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetMultipSoundMute(System.Boolean)">SetMultipSoundMute(Boolean)</h4>
+  <div class="markdown level1 summary"><p>多通道音频静音</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMultipSoundMute(bool isMute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isMute</span></td>
+        <td><p>是否静音</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_SetSingleSoundMute_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetSingleSoundMute*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_SetSingleSoundMute_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetSingleSoundMute(System.Boolean)">SetSingleSoundMute(Boolean)</h4>
+  <div class="markdown level1 summary"><p>设置单通道音乐是否静音</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSingleSoundMute(bool isMute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isMute</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_SetSingleSoundSpeed_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetSingleSoundSpeed*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_SetSingleSoundSpeed_System_Single_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetSingleSoundSpeed(System.Single)">SetSingleSoundSpeed(Single)</h4>
+  <div class="markdown level1 summary"><p>设置音频速度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSingleSoundSpeed(float speed = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">speed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_SetWorldSoundMute_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetWorldSoundMute*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_SetWorldSoundMute_System_Boolean_" data-uid="VFramework.Runtime.AudioProcessorCenter.SetWorldSoundMute(System.Boolean)">SetWorldSoundMute(Boolean)</h4>
+  <div class="markdown level1 summary"><p>设置世界音频是否静音</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWorldSoundMute(bool isMute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isMute</span></td>
+        <td><p>是否静音</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_StopAll_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopAll*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_StopAll" data-uid="VFramework.Runtime.AudioProcessorCenter.StopAll">StopAll()</h4>
+  <div class="markdown level1 summary"><p>全局停止</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopAll()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_StopBackgroundSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopBackgroundSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_StopBackgroundSound" data-uid="VFramework.Runtime.AudioProcessorCenter.StopBackgroundSound">StopBackgroundSound()</h4>
+  <div class="markdown level1 summary"><p>停止播放背景音乐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopBackgroundSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_StopMultipSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopMultipSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_StopMultipSound" data-uid="VFramework.Runtime.AudioProcessorCenter.StopMultipSound">StopMultipSound()</h4>
+  <div class="markdown level1 summary"><p>停止多通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopMultipSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_StopSingleSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopSingleSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_StopSingleSound" data-uid="VFramework.Runtime.AudioProcessorCenter.StopSingleSound">StopSingleSound()</h4>
+  <div class="markdown level1 summary"><p>停止单通道音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopSingleSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_StopWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_StopWorldSound" data-uid="VFramework.Runtime.AudioProcessorCenter.StopWorldSound">StopWorldSound()</h4>
+  <div class="markdown level1 summary"><p>停止所有世界音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopWorldSound()</code></pre>
+  </div>
+  
+  
+  <a id="VFramework_Runtime_AudioProcessorCenter_StopWorldSound_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopWorldSound*"></a>
+  <h4 id="VFramework_Runtime_AudioProcessorCenter_StopWorldSound_GameObject_" data-uid="VFramework.Runtime.AudioProcessorCenter.StopWorldSound(GameObject)">StopWorldSound(GameObject)</h4>
+  <div class="markdown level1 summary"><p>停止单个音频</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopWorldSound(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
