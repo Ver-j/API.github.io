@@ -1,0 +1,3961 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ObservableTriggerExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ObservableTriggerExtensions
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UniRx.Triggers.ObservableTriggerExtensions">
+  
+  
+  <h1 id="UniRx_Triggers_ObservableTriggerExtensions" data-uid="UniRx.Triggers.ObservableTriggerExtensions" class="text-break">Class ObservableTriggerExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ObservableTriggerExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UniRx.Triggers.html">UniRx.Triggers</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="UniRx_Triggers_ObservableTriggerExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ObservableTriggerExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_FixedUpdateAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.FixedUpdateAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_FixedUpdateAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.FixedUpdateAsObservable(Component)">FixedUpdateAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>This function is called every fixed framerate frame, if the MonoBehaviour is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; FixedUpdateAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_FixedUpdateAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.FixedUpdateAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_FixedUpdateAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.FixedUpdateAsObservable(GameObject)">FixedUpdateAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>This function is called every fixed framerate frame, if the MonoBehaviour is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; FixedUpdateAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_LateUpdateAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.LateUpdateAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_LateUpdateAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.LateUpdateAsObservable(Component)">LateUpdateAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>LateUpdate is called every frame, if the Behaviour is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; LateUpdateAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_LateUpdateAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.LateUpdateAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_LateUpdateAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.LateUpdateAsObservable(GameObject)">LateUpdateAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>LateUpdate is called every frame, if the Behaviour is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; LateUpdateAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorIKAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorIKAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorIKAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorIKAsObservable(Component)">OnAnimatorIKAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Callback for setting up animation IK (inverse kinematics).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;int&gt; OnAnimatorIKAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorIKAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorIKAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorIKAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorIKAsObservable(GameObject)">OnAnimatorIKAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Callback for setting up animation IK (inverse kinematics).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;int&gt; OnAnimatorIKAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorMoveAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorMoveAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorMoveAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorMoveAsObservable(Component)">OnAnimatorMoveAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Callback for processing animation movements for modifying root motion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnAnimatorMoveAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorMoveAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorMoveAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnAnimatorMoveAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnAnimatorMoveAsObservable(GameObject)">OnAnimatorMoveAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Callback for processing animation movements for modifying root motion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnAnimatorMoveAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameInvisibleAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameInvisibleAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameInvisibleAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameInvisibleAsObservable(Component)">OnBecameInvisibleAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnBecameInvisible is called when the renderer is no longer visible by any camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnBecameInvisibleAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameInvisibleAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameInvisibleAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameInvisibleAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameInvisibleAsObservable(GameObject)">OnBecameInvisibleAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnBecameInvisible is called when the renderer is no longer visible by any camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnBecameInvisibleAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameVisibleAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameVisibleAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameVisibleAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameVisibleAsObservable(Component)">OnBecameVisibleAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnBecameVisible is called when the renderer became visible by any camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnBecameVisibleAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameVisibleAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameVisibleAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBecameVisibleAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBecameVisibleAsObservable(GameObject)">OnBecameVisibleAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnBecameVisible is called when the renderer became visible by any camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnBecameVisibleAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBeforeTransformParentChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBeforeTransformParentChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBeforeTransformParentChangedAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBeforeTransformParentChangedAsObservable(Component)">OnBeforeTransformParentChangedAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Callback sent to the graphic before a Transform parent change occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnBeforeTransformParentChangedAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBeforeTransformParentChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBeforeTransformParentChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBeforeTransformParentChangedAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBeforeTransformParentChangedAsObservable(GameObject)">OnBeforeTransformParentChangedAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Callback sent to the graphic before a Transform parent change occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnBeforeTransformParentChangedAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnBeginDragAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBeginDragAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnBeginDragAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnBeginDragAsObservable(UIBehaviour)">OnBeginDragAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnBeginDragAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCancelAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCancelAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCancelAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCancelAsObservable(UIBehaviour)">OnCancelAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;BaseEventData&gt; OnCancelAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">BaseEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCanvasGroupChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCanvasGroupChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCanvasGroupChangedAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCanvasGroupChangedAsObservable(Component)">OnCanvasGroupChangedAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Callback that is sent if the canvas group is changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnCanvasGroupChangedAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCanvasGroupChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCanvasGroupChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCanvasGroupChangedAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCanvasGroupChangedAsObservable(GameObject)">OnCanvasGroupChangedAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Callback that is sent if the canvas group is changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnCanvasGroupChangedAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnter2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnter2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnter2DAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnter2DAsObservable(Component)">OnCollisionEnter2DAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Sent when an incoming collider makes contact with this object's collider (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision2D&gt; OnCollisionEnter2DAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnter2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnter2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnter2DAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnter2DAsObservable(GameObject)">OnCollisionEnter2DAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Sent when an incoming collider makes contact with this object's collider (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision2D&gt; OnCollisionEnter2DAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnterAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnterAsObservable(Component)">OnCollisionEnterAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnCollisionEnter is called when this collider/rigidbody has begun touching another rigidbody/collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision&gt; OnCollisionEnterAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionEnterAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionEnterAsObservable(GameObject)">OnCollisionEnterAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnCollisionEnter is called when this collider/rigidbody has begun touching another rigidbody/collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision&gt; OnCollisionEnterAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExit2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExit2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExit2DAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExit2DAsObservable(Component)">OnCollisionExit2DAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Sent when a collider on another object stops touching this object's collider (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision2D&gt; OnCollisionExit2DAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExit2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExit2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExit2DAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExit2DAsObservable(GameObject)">OnCollisionExit2DAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Sent when a collider on another object stops touching this object's collider (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision2D&gt; OnCollisionExit2DAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExitAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExitAsObservable(Component)">OnCollisionExitAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnCollisionExit is called when this collider/rigidbody has stopped touching another rigidbody/collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision&gt; OnCollisionExitAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionExitAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionExitAsObservable(GameObject)">OnCollisionExitAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnCollisionExit is called when this collider/rigidbody has stopped touching another rigidbody/collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision&gt; OnCollisionExitAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStay2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStay2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStay2DAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStay2DAsObservable(Component)">OnCollisionStay2DAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Sent each frame where a collider on another object is touching this object's collider (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision2D&gt; OnCollisionStay2DAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStay2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStay2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStay2DAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStay2DAsObservable(GameObject)">OnCollisionStay2DAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Sent each frame where a collider on another object is touching this object's collider (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision2D&gt; OnCollisionStay2DAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStayAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStayAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStayAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStayAsObservable(Component)">OnCollisionStayAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnCollisionStay is called once per frame for every collider/rigidbody that is touching rigidbody/collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision&gt; OnCollisionStayAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStayAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStayAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnCollisionStayAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnCollisionStayAsObservable(GameObject)">OnCollisionStayAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnCollisionStay is called once per frame for every collider/rigidbody that is touching rigidbody/collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collision&gt; OnCollisionStayAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collision</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDeselectAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDeselectAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDeselectAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDeselectAsObservable(UIBehaviour)">OnDeselectAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;BaseEventData&gt; OnDeselectAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">BaseEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDestroyAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDestroyAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDestroyAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDestroyAsObservable(Component)">OnDestroyAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the MonoBehaviour will be destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnDestroyAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDestroyAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDestroyAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDestroyAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDestroyAsObservable(GameObject)">OnDestroyAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the MonoBehaviour will be destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnDestroyAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDisableAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDisableAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDisableAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDisableAsObservable(Component)">OnDisableAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the behaviour becomes disabled () or inactive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnDisableAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDisableAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDisableAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDisableAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDisableAsObservable(GameObject)">OnDisableAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the behaviour becomes disabled () or inactive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnDisableAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDragAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDragAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDragAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDragAsObservable(UIBehaviour)">OnDragAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnDragAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnDropAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDropAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnDropAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnDropAsObservable(UIBehaviour)">OnDropAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnDropAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnEnableAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnEnableAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnEnableAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnEnableAsObservable(Component)">OnEnableAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the object becomes enabled and active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnEnableAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnEnableAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnEnableAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnEnableAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnEnableAsObservable(GameObject)">OnEnableAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the object becomes enabled and active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnEnableAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnEndDragAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnEndDragAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnEndDragAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnEndDragAsObservable(UIBehaviour)">OnEndDragAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnEndDragAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnInitializePotentialDragAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnInitializePotentialDragAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnInitializePotentialDragAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnInitializePotentialDragAsObservable(UIBehaviour)">OnInitializePotentialDragAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnInitializePotentialDragAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDownAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDownAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDownAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDownAsObservable(Component)">OnMouseDownAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseDown is called when the user has pressed the mouse button while over the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseDownAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDownAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDownAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDownAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDownAsObservable(GameObject)">OnMouseDownAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseDown is called when the user has pressed the mouse button while over the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseDownAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDragAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDragAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDragAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDragAsObservable(Component)">OnMouseDragAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseDrag is called when the user has clicked on a GUIElement or Collider and is still holding down the mouse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseDragAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDragAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDragAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseDragAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseDragAsObservable(GameObject)">OnMouseDragAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseDrag is called when the user has clicked on a GUIElement or Collider and is still holding down the mouse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseDragAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseEnterAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseEnterAsObservable(Component)">OnMouseEnterAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseEnter is called when the mouse entered the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseEnterAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseEnterAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseEnterAsObservable(GameObject)">OnMouseEnterAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseEnter is called when the mouse entered the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseEnterAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseExitAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseExitAsObservable(Component)">OnMouseExitAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseExit is called when the mouse is not any longer over the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseExitAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseExitAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseExitAsObservable(GameObject)">OnMouseExitAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseExit is called when the mouse is not any longer over the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseExitAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseOverAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseOverAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseOverAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseOverAsObservable(Component)">OnMouseOverAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseOver is called every frame while the mouse is over the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseOverAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseOverAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseOverAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseOverAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseOverAsObservable(GameObject)">OnMouseOverAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseOver is called every frame while the mouse is over the GUIElement or Collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseOverAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsButtonAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsButtonAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsButtonAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsButtonAsObservable(Component)">OnMouseUpAsButtonAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseUpAsButton is only called when the mouse is released over the same GUIElement or Collider as it was pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseUpAsButtonAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsButtonAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsButtonAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsButtonAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsButtonAsObservable(GameObject)">OnMouseUpAsButtonAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseUpAsButton is only called when the mouse is released over the same GUIElement or Collider as it was pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseUpAsButtonAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsObservable(Component)">OnMouseUpAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnMouseUp is called when the user has released the mouse button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseUpAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMouseUpAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMouseUpAsObservable(GameObject)">OnMouseUpAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnMouseUp is called when the user has released the mouse button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnMouseUpAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnMoveAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMoveAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnMoveAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnMoveAsObservable(UIBehaviour)">OnMoveAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;AxisEventData&gt; OnMoveAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">AxisEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnParticleCollisionAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnParticleCollisionAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnParticleCollisionAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnParticleCollisionAsObservable(Component)">OnParticleCollisionAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnParticleCollision is called when a particle hits a collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;GameObject&gt; OnParticleCollisionAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnParticleCollisionAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnParticleCollisionAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnParticleCollisionAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnParticleCollisionAsObservable(GameObject)">OnParticleCollisionAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnParticleCollision is called when a particle hits a collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;GameObject&gt; OnParticleCollisionAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerClickAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerClickAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerClickAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerClickAsObservable(UIBehaviour)">OnPointerClickAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnPointerClickAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerDownAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerDownAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerDownAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerDownAsObservable(UIBehaviour)">OnPointerDownAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnPointerDownAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerEnterAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerEnterAsObservable(UIBehaviour)">OnPointerEnterAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnPointerEnterAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerExitAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerExitAsObservable(UIBehaviour)">OnPointerExitAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnPointerExitAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerUpAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerUpAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnPointerUpAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnPointerUpAsObservable(UIBehaviour)">OnPointerUpAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnPointerUpAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformDimensionsChangeAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformDimensionsChangeAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformDimensionsChangeAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformDimensionsChangeAsObservable(Component)">OnRectTransformDimensionsChangeAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Callback that is sent if an associated RectTransform has it's dimensions changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnRectTransformDimensionsChangeAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformDimensionsChangeAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformDimensionsChangeAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformDimensionsChangeAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformDimensionsChangeAsObservable(GameObject)">OnRectTransformDimensionsChangeAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Callback that is sent if an associated RectTransform has it's dimensions changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnRectTransformDimensionsChangeAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformRemovedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformRemovedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformRemovedAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformRemovedAsObservable(Component)">OnRectTransformRemovedAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Callback that is sent if an associated RectTransform is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnRectTransformRemovedAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformRemovedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformRemovedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnRectTransformRemovedAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnRectTransformRemovedAsObservable(GameObject)">OnRectTransformRemovedAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Callback that is sent if an associated RectTransform is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnRectTransformRemovedAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnScrollAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnScrollAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnScrollAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnScrollAsObservable(UIBehaviour)">OnScrollAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;PointerEventData&gt; OnScrollAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnSelectAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnSelectAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnSelectAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnSelectAsObservable(UIBehaviour)">OnSelectAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;BaseEventData&gt; OnSelectAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">BaseEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnSubmitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnSubmitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnSubmitAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnSubmitAsObservable(UIBehaviour)">OnSubmitAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;BaseEventData&gt; OnSubmitAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">BaseEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformChildrenChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformChildrenChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformChildrenChangedAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformChildrenChangedAsObservable(Component)">OnTransformChildrenChangedAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the list of children of the transform of the GameObject has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnTransformChildrenChangedAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformChildrenChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformChildrenChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformChildrenChangedAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformChildrenChangedAsObservable(GameObject)">OnTransformChildrenChangedAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the list of children of the transform of the GameObject has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnTransformChildrenChangedAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformParentChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformParentChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformParentChangedAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformParentChangedAsObservable(Component)">OnTransformParentChangedAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the parent property of the transform of the GameObject has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnTransformParentChangedAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformParentChangedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformParentChangedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTransformParentChangedAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTransformParentChangedAsObservable(GameObject)">OnTransformParentChangedAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>This function is called when the parent property of the transform of the GameObject has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; OnTransformParentChangedAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnter2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnter2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnter2DAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnter2DAsObservable(Component)">OnTriggerEnter2DAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Sent when another object enters a trigger collider attached to this object (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider2D&gt; OnTriggerEnter2DAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnter2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnter2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnter2DAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnter2DAsObservable(GameObject)">OnTriggerEnter2DAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Sent when another object enters a trigger collider attached to this object (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider2D&gt; OnTriggerEnter2DAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnterAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnterAsObservable(Component)">OnTriggerEnterAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnTriggerEnter is called when the Collider other enters the trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider&gt; OnTriggerEnterAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnterAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnterAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerEnterAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerEnterAsObservable(GameObject)">OnTriggerEnterAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnTriggerEnter is called when the Collider other enters the trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider&gt; OnTriggerEnterAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExit2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExit2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExit2DAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExit2DAsObservable(Component)">OnTriggerExit2DAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Sent when another object leaves a trigger collider attached to this object (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider2D&gt; OnTriggerExit2DAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExit2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExit2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExit2DAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExit2DAsObservable(GameObject)">OnTriggerExit2DAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Sent when another object leaves a trigger collider attached to this object (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider2D&gt; OnTriggerExit2DAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExitAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExitAsObservable(Component)">OnTriggerExitAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnTriggerExit is called when the Collider other has stopped touching the trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider&gt; OnTriggerExitAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExitAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExitAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerExitAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerExitAsObservable(GameObject)">OnTriggerExitAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnTriggerExit is called when the Collider other has stopped touching the trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider&gt; OnTriggerExitAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStay2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStay2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStay2DAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStay2DAsObservable(Component)">OnTriggerStay2DAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Sent each frame where another object is within a trigger collider attached to this object (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider2D&gt; OnTriggerStay2DAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStay2DAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStay2DAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStay2DAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStay2DAsObservable(GameObject)">OnTriggerStay2DAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Sent each frame where another object is within a trigger collider attached to this object (2D physics only).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider2D&gt; OnTriggerStay2DAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStayAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStayAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStayAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStayAsObservable(Component)">OnTriggerStayAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>OnTriggerStay is called once per frame for every Collider other that is touching the trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider&gt; OnTriggerStayAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStayAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStayAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnTriggerStayAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnTriggerStayAsObservable(GameObject)">OnTriggerStayAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>OnTriggerStay is called once per frame for every Collider other that is touching the trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Collider&gt; OnTriggerStayAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">Collider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_OnUpdateSelectedAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnUpdateSelectedAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_OnUpdateSelectedAsObservable_UIBehaviour_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.OnUpdateSelectedAsObservable(UIBehaviour)">OnUpdateSelectedAsObservable(UIBehaviour)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;BaseEventData&gt; OnUpdateSelectedAsObservable(this UIBehaviour component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UIBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<span class="xref">BaseEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_UpdateAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.UpdateAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_UpdateAsObservable_Component_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.UpdateAsObservable(Component)">UpdateAsObservable(Component)</h4>
+  <div class="markdown level1 summary"><p>Update is called every frame, if the MonoBehaviour is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; UpdateAsObservable(this Component component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Component</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UniRx_Triggers_ObservableTriggerExtensions_UpdateAsObservable_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.UpdateAsObservable*"></a>
+  <h4 id="UniRx_Triggers_ObservableTriggerExtensions_UpdateAsObservable_GameObject_" data-uid="UniRx.Triggers.ObservableTriggerExtensions.UpdateAsObservable(GameObject)">UpdateAsObservable(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Update is called every frame, if the MonoBehaviour is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IObservable&lt;Unit&gt; UpdateAsObservable(this GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UniRx.IObservable-1.html">IObservable</a>&lt;<a class="xref" href="UniRx.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

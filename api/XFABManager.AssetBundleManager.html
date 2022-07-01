@@ -1,0 +1,2246 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AssetBundleManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AssetBundleManager
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="XFABManager.AssetBundleManager">
+  
+  
+  <h1 id="XFABManager_AssetBundleManager" data-uid="XFABManager.AssetBundleManager" class="text-break">Class AssetBundleManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AssetBundleManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="XFABManager.html">XFABManager</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="XFABManager_AssetBundleManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AssetBundleManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="XFABManager_AssetBundleManager_AssetBundles_" data-uid="XFABManager.AssetBundleManager.AssetBundles*"></a>
+  <h4 id="XFABManager_AssetBundleManager_AssetBundles" data-uid="XFABManager.AssetBundleManager.AssetBundles">AssetBundles</h4>
+  <div class="markdown level1 summary"><p>保存加载的所有AssetBundle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Dictionary&lt;string, AssetBundle&gt;&gt; AssetBundles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">AssetBundle</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_isInited_" data-uid="XFABManager.AssetBundleManager.isInited*"></a>
+  <h4 id="XFABManager_AssetBundleManager_isInited" data-uid="XFABManager.AssetBundleManager.isInited">isInited</h4>
+  <div class="markdown level1 summary"><p>是否初始化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isInited { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_ServerFilePath_" data-uid="XFABManager.AssetBundleManager.ServerFilePath*"></a>
+  <h4 id="XFABManager_AssetBundleManager_ServerFilePath" data-uid="XFABManager.AssetBundleManager.ServerFilePath">ServerFilePath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServerFilePath ServerFilePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.IServerFilePath.html">IServerFilePath</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="XFABManager_AssetBundleManager_CheckResUpdate_" data-uid="XFABManager.AssetBundleManager.CheckResUpdate*"></a>
+  <h4 id="XFABManager_AssetBundleManager_CheckResUpdate_System_String_" data-uid="XFABManager.AssetBundleManager.CheckResUpdate(System.String)">CheckResUpdate(String)</h4>
+  <div class="markdown level1 summary"><p>检测某个项目 是否需要更新 下载 或者 释放 等等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CheckResUpdateRequest CheckResUpdate(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.CheckResUpdateRequest.html">CheckResUpdateRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_CheckResUpdates_" data-uid="XFABManager.AssetBundleManager.CheckResUpdates*"></a>
+  <h4 id="XFABManager_AssetBundleManager_CheckResUpdates_System_String_" data-uid="XFABManager.AssetBundleManager.CheckResUpdates(System.String)">CheckResUpdates(String)</h4>
+  <div class="markdown level1 summary"><p>检测某个项目 及其依赖项目 是否需要更新 下载 或者 释放 等等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CheckResUpdatesRequest CheckResUpdates(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.CheckResUpdatesRequest.html">CheckResUpdatesRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_ClearProjectCache_" data-uid="XFABManager.AssetBundleManager.ClearProjectCache*"></a>
+  <h4 id="XFABManager_AssetBundleManager_ClearProjectCache_System_String_" data-uid="XFABManager.AssetBundleManager.ClearProjectCache(System.String)">ClearProjectCache(String)</h4>
+  <div class="markdown level1 summary"><p>清空某一个模块在本地的所有资源文件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearProjectCache(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_DownloadOneAssetBundle_" data-uid="XFABManager.AssetBundleManager.DownloadOneAssetBundle*"></a>
+  <h4 id="XFABManager_AssetBundleManager_DownloadOneAssetBundle_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.DownloadOneAssetBundle(System.String,System.String)">DownloadOneAssetBundle(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DownloadOneAssetBundleRequest DownloadOneAssetBundle(string projectName, string bundleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.DownloadOneAssetBundleRequest.html">DownloadOneAssetBundleRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_ExtractRes_" data-uid="XFABManager.AssetBundleManager.ExtractRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_ExtractRes_System_String_" data-uid="XFABManager.AssetBundleManager.ExtractRes(System.String)">ExtractRes(String)</h4>
+  <div class="markdown level1 summary"><p>释放AssetBunle ( 从 StreamingAssets 到 persistentDataPath )
+仅释放当前项目资源 不包含其依赖项目</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExtractResRequest ExtractRes(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.ExtractResRequest.html">ExtractResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_ExtractRes_" data-uid="XFABManager.AssetBundleManager.ExtractRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_ExtractRes_XFABManager_CheckUpdateResult_" data-uid="XFABManager.AssetBundleManager.ExtractRes(XFABManager.CheckUpdateResult)">ExtractRes(CheckUpdateResult)</h4>
+  <div class="markdown level1 summary"><p>释放AssetBunle ( 从 StreamingAssets 到 persistentDataPath )
+仅释放当前项目资源 不包含其依赖项目</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExtractResRequest ExtractRes(CheckUpdateResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.CheckUpdateResult.html">CheckUpdateResult</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.ExtractResRequest.html">ExtractResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_GetAssetBundleDependences_" data-uid="XFABManager.AssetBundleManager.GetAssetBundleDependences*"></a>
+  <h4 id="XFABManager_AssetBundleManager_GetAssetBundleDependences_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.GetAssetBundleDependences(System.String,System.String)">GetAssetBundleDependences(String, String)</h4>
+  <div class="markdown level1 summary"><p>获取AssetBundle的依赖</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetAssetBundleDependences(string projectName, string bundleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>项目名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td><p>bundle名 不需要加后缀</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_GetAssetBundlePath_" data-uid="XFABManager.AssetBundleManager.GetAssetBundlePath*"></a>
+  <h4 id="XFABManager_AssetBundleManager_GetAssetBundlePath_System_String_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.GetAssetBundlePath(System.String,System.String,System.String)">GetAssetBundlePath(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>获取AssetBundle的路径</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAssetBundlePath(string projectName, string bundleName, string suffix = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>项目名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td><p>AssetBundle名称 需要加后缀!</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">suffix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_GetAssetBundleSuffix_" data-uid="XFABManager.AssetBundleManager.GetAssetBundleSuffix*"></a>
+  <h4 id="XFABManager_AssetBundleManager_GetAssetBundleSuffix_System_String_" data-uid="XFABManager.AssetBundleManager.GetAssetBundleSuffix(System.String)">GetAssetBundleSuffix(String)</h4>
+  <div class="markdown level1 summary"><p>获取 AssetBundle 的后缀名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAssetBundleSuffix(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_GetProfile_" data-uid="XFABManager.AssetBundleManager.GetProfile*"></a>
+  <h4 id="XFABManager_AssetBundleManager_GetProfile_System_String_" data-uid="XFABManager.AssetBundleManager.GetProfile(System.String)">GetProfile(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Profile GetProfile(string projectName = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.Profile.html">Profile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_GetProjectCacheSize_" data-uid="XFABManager.AssetBundleManager.GetProjectCacheSize*"></a>
+  <h4 id="XFABManager_AssetBundleManager_GetProjectCacheSize_System_String_" data-uid="XFABManager.AssetBundleManager.GetProjectCacheSize(System.String)">GetProjectCacheSize(String)</h4>
+  <div class="markdown level1 summary"><p>获取某一个资源模块 在本地的所有资源大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long GetProjectCacheSize(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_GetProjectDependencies_" data-uid="XFABManager.AssetBundleManager.GetProjectDependencies*"></a>
+  <h4 id="XFABManager_AssetBundleManager_GetProjectDependencies_System_String_" data-uid="XFABManager.AssetBundleManager.GetProjectDependencies(System.String)">GetProjectDependencies(String)</h4>
+  <div class="markdown level1 summary"><p>获取某个项目的依赖项目</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GetProjectDependenciesRequest GetProjectDependencies(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>项目名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.GetProjectDependenciesRequest.html">GetProjectDependenciesRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_InitializeAsync_" data-uid="XFABManager.AssetBundleManager.InitializeAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_InitializeAsync" data-uid="XFABManager.AssetBundleManager.InitializeAsync">InitializeAsync()</h4>
+  <div class="markdown level1 summary"><p>初始化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InitializeRequest InitializeAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.InitializeRequest.html">InitializeRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_IsHaveBuiltInRes_" data-uid="XFABManager.AssetBundleManager.IsHaveBuiltInRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_IsHaveBuiltInRes_System_String_" data-uid="XFABManager.AssetBundleManager.IsHaveBuiltInRes(System.String)">IsHaveBuiltInRes(String)</h4>
+  <div class="markdown level1 summary"><p>判断是否有内置资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IsHaveBuiltInResRequest IsHaveBuiltInRes(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>资源模块名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.IsHaveBuiltInResRequest.html">IsHaveBuiltInResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_IsHaveResOnLocal_" data-uid="XFABManager.AssetBundleManager.IsHaveResOnLocal*"></a>
+  <h4 id="XFABManager_AssetBundleManager_IsHaveResOnLocal_System_String_" data-uid="XFABManager.AssetBundleManager.IsHaveResOnLocal(System.String)">IsHaveResOnLocal(String)</h4>
+  <div class="markdown level1 summary"><p>判断本地是否有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsHaveResOnLocal(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>资源项目名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_IsLoadedAssetBundle_" data-uid="XFABManager.AssetBundleManager.IsLoadedAssetBundle*"></a>
+  <h4 id="XFABManager_AssetBundleManager_IsLoadedAssetBundle_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.IsLoadedAssetBundle(System.String,System.String)">IsLoadedAssetBundle(String, String)</h4>
+  <div class="markdown level1 summary"><p>判断是否已经加载 某个AssetBundle
+如果是 编辑器模式 并且从 Assets 加载资源 一直返回True</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLoadedAssetBundle(string projectName, string bundleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssetBundles_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetBundles*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssetBundles_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetBundles(System.String)">LoadAllAssetBundles(String)</h4>
+  <div class="markdown level1 summary"><p>加载某个模块所有的AssetBundle 异步</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAllAssetBundlesRequest LoadAllAssetBundles(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>项目名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAllAssetBundlesRequest.html">LoadAllAssetBundlesRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssets_" data-uid="XFABManager.AssetBundleManager.LoadAllAssets*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssets_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAllAssets(System.String,System.String)">LoadAllAssets(String, String)</h4>
+  <div class="markdown level1 summary"><p>加载所有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object[] LoadAllAssets(string projectName, string bundleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Object</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssets_" data-uid="XFABManager.AssetBundleManager.LoadAllAssets*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssets_System_String_System_String_System_Type_" data-uid="XFABManager.AssetBundleManager.LoadAllAssets(System.String,System.String,System.Type)">LoadAllAssets(String, String, Type)</h4>
+  <div class="markdown level1 summary"><p>加载某个类型所有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object[] LoadAllAssets(string projectName, string bundleName, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Object</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssets_" data-uid="XFABManager.AssetBundleManager.LoadAllAssets*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssets__1_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAllAssets``1(System.String,System.String)">LoadAllAssets&lt;T&gt;(String, String)</h4>
+  <div class="markdown level1 summary"><p>加载某个类型所有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] LoadAllAssets&lt;T&gt;(string projectName, string bundleName)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssetsAsync_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetsAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssetsAsync_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetsAsync(System.String,System.String)">LoadAllAssetsAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>异步加载所有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetsRequest LoadAllAssetsAsync(string projectName, string bundleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetsRequest.html">LoadAssetsRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssetsAsync_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetsAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssetsAsync_System_String_System_String_System_Type_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetsAsync(System.String,System.String,System.Type)">LoadAllAssetsAsync(String, String, Type)</h4>
+  <div class="markdown level1 summary"><p>异步加载某个类型的所有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetsRequest LoadAllAssetsAsync(string projectName, string bundleName, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetsRequest.html">LoadAssetsRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAllAssetsAsync_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetsAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAllAssetsAsync__1_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAllAssetsAsync``1(System.String,System.String)">LoadAllAssetsAsync&lt;T&gt;(String, String)</h4>
+  <div class="markdown level1 summary"><p>异步加载某个类型的所有资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetsRequest LoadAllAssetsAsync&lt;T&gt;(string projectName, string bundleName)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetsRequest.html">LoadAssetsRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAsset_" data-uid="XFABManager.AssetBundleManager.LoadAsset*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAsset_System_String_System_String_System_String_System_Type_" data-uid="XFABManager.AssetBundleManager.LoadAsset(System.String,System.String,System.String,System.Type)">LoadAsset(String, String, String, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object LoadAsset(string projectName, string bundleName, string assetName, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAsset_" data-uid="XFABManager.AssetBundleManager.LoadAsset*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAsset__1_System_String_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAsset``1(System.String,System.String,System.String)">LoadAsset&lt;T&gt;(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>加载资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T LoadAsset&lt;T&gt;(string projectName, string bundleName, string assetName)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td><p>没有后缀</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAssetAsync_" data-uid="XFABManager.AssetBundleManager.LoadAssetAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAssetAsync_System_String_System_String_System_String_System_Type_" data-uid="XFABManager.AssetBundleManager.LoadAssetAsync(System.String,System.String,System.String,System.Type)">LoadAssetAsync(String, String, String, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetRequest LoadAssetAsync(string projectName, string bundleName, string assetName, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetRequest.html">LoadAssetRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAssetAsync_" data-uid="XFABManager.AssetBundleManager.LoadAssetAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAssetAsync__1_System_String_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAssetAsync``1(System.String,System.String,System.String)">LoadAssetAsync&lt;T&gt;(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetRequest LoadAssetAsync&lt;T&gt;(string projectName, string bundleName, string assetName)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetRequest.html">LoadAssetRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAssetWithSubAssets_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssets*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAssetWithSubAssets_System_String_System_String_System_String_System_Type_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssets(System.String,System.String,System.String,System.Type)">LoadAssetWithSubAssets(String, String, String, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object[] LoadAssetWithSubAssets(string projectName, string bundleName, string assetName, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Object</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAssetWithSubAssets_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssets*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAssetWithSubAssets__1_System_String_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssets``1(System.String,System.String,System.String)">LoadAssetWithSubAssets&lt;T&gt;(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] LoadAssetWithSubAssets&lt;T&gt;(string projectName, string bundleName, string assetName)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAssetWithSubAssetsAsync_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssetsAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAssetWithSubAssetsAsync_System_String_System_String_System_String_System_Type_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssetsAsync(System.String,System.String,System.String,System.Type)">LoadAssetWithSubAssetsAsync(String, String, String, Type)</h4>
+  <div class="markdown level1 summary"><p>异步加载子资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetsRequest LoadAssetWithSubAssetsAsync(string projectName, string bundleName, string assetName, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetsRequest.html">LoadAssetsRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadAssetWithSubAssetsAsync_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssetsAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadAssetWithSubAssetsAsync__1_System_String_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.LoadAssetWithSubAssetsAsync``1(System.String,System.String,System.String)">LoadAssetWithSubAssetsAsync&lt;T&gt;(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>异步加载子资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LoadAssetsRequest LoadAssetWithSubAssetsAsync&lt;T&gt;(string projectName, string bundleName, string assetName)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assetName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.LoadAssetsRequest.html">LoadAssetsRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadScene_" data-uid="XFABManager.AssetBundleManager.LoadScene*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadScene_System_String_System_String_System_String_LoadSceneMode_" data-uid="XFABManager.AssetBundleManager.LoadScene(System.String,System.String,System.String,LoadSceneMode)">LoadScene(String, String, String, LoadSceneMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadScene(string projectName, string bundleName, string sceneName, LoadSceneMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LoadSceneMode</span></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_LoadSceneAsync_" data-uid="XFABManager.AssetBundleManager.LoadSceneAsync*"></a>
+  <h4 id="XFABManager_AssetBundleManager_LoadSceneAsync_System_String_System_String_System_String_LoadSceneMode_" data-uid="XFABManager.AssetBundleManager.LoadSceneAsync(System.String,System.String,System.String,LoadSceneMode)">LoadSceneAsync(String, String, String, LoadSceneMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AsyncOperation LoadSceneAsync(string projectName, string bundleName, string sceneName, LoadSceneMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LoadSceneMode</span></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncOperation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_ReadyRes_" data-uid="XFABManager.AssetBundleManager.ReadyRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_ReadyRes_System_String_" data-uid="XFABManager.AssetBundleManager.ReadyRes(System.String)">ReadyRes(String)</h4>
+  <div class="markdown level1 summary"><p>准备某个模块的资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadyResRequest ReadyRes(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.ReadyResRequest.html">ReadyResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_ReadyRes_" data-uid="XFABManager.AssetBundleManager.ReadyRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_ReadyRes_XFABManager_CheckUpdateResult___" data-uid="XFABManager.AssetBundleManager.ReadyRes(XFABManager.CheckUpdateResult[])">ReadyRes(CheckUpdateResult[])</h4>
+  <div class="markdown level1 summary"><p>准备 某一组检测结果的资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadyResRequest ReadyRes(CheckUpdateResult[] results)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.CheckUpdateResult.html">CheckUpdateResult</a>[]</td>
+        <td><span class="parametername">results</span></td>
+        <td><p>检测结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.ReadyResRequest.html">ReadyResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_SetGetProjectVersion_" data-uid="XFABManager.AssetBundleManager.SetGetProjectVersion*"></a>
+  <h4 id="XFABManager_AssetBundleManager_SetGetProjectVersion_System_Type_" data-uid="XFABManager.AssetBundleManager.SetGetProjectVersion(System.Type)">SetGetProjectVersion(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetGetProjectVersion(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_SetGetProjectVersion_" data-uid="XFABManager.AssetBundleManager.SetGetProjectVersion*"></a>
+  <h4 id="XFABManager_AssetBundleManager_SetGetProjectVersion_XFABManager_IGetProjectVersion_" data-uid="XFABManager.AssetBundleManager.SetGetProjectVersion(XFABManager.IGetProjectVersion)">SetGetProjectVersion(IGetProjectVersion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;&#25913;&#26041;&#27861;&#24050;&#32463;&#36807;&#26102;,&#23558;&#20250;&#22312;&#26410;&#26469;&#30340;&#29256;&#26412;&#20013;&#31227;&#38500;,&#35831;&#20351;&#29992;&#26041;&#27861; SetGetProjectVersion&lt;T&gt;() &#25110;&#32773; SetGetProjectVersion(Type type)&#20195;&#26367;!&quot;, false)]
+public static void SetGetProjectVersion(IGetProjectVersion getProjectVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.IGetProjectVersion.html">IGetProjectVersion</a></td>
+        <td><span class="parametername">getProjectVersion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_SetGetProjectVersion_" data-uid="XFABManager.AssetBundleManager.SetGetProjectVersion*"></a>
+  <h4 id="XFABManager_AssetBundleManager_SetGetProjectVersion__1" data-uid="XFABManager.AssetBundleManager.SetGetProjectVersion``1">SetGetProjectVersion&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>设置获取 版本的接口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetGetProjectVersion&lt;T&gt;()
+    where T : IGetProjectVersion</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_SetServerFilePath_" data-uid="XFABManager.AssetBundleManager.SetServerFilePath*"></a>
+  <h4 id="XFABManager_AssetBundleManager_SetServerFilePath_XFABManager_IServerFilePath_" data-uid="XFABManager.AssetBundleManager.SetServerFilePath(XFABManager.IServerFilePath)">SetServerFilePath(IServerFilePath)</h4>
+  <div class="markdown level1 summary"><p>设置服务端文件路径接口 注:此方法要在 AssetBundleManager 初始化完成之后调用 才会生效!</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetServerFilePath(IServerFilePath serverFilePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.IServerFilePath.html">IServerFilePath</a></td>
+        <td><span class="parametername">serverFilePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_UnLoadAllAssetBundles_" data-uid="XFABManager.AssetBundleManager.UnLoadAllAssetBundles*"></a>
+  <h4 id="XFABManager_AssetBundleManager_UnLoadAllAssetBundles_System_String_System_Boolean_" data-uid="XFABManager.AssetBundleManager.UnLoadAllAssetBundles(System.String,System.Boolean)">UnLoadAllAssetBundles(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnLoadAllAssetBundles(string projectName, bool unloadAllLoadedObjects = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unloadAllLoadedObjects</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_UnLoadAssetBundle_" data-uid="XFABManager.AssetBundleManager.UnLoadAssetBundle*"></a>
+  <h4 id="XFABManager_AssetBundleManager_UnLoadAssetBundle_System_String_System_String_" data-uid="XFABManager.AssetBundleManager.UnLoadAssetBundle(System.String,System.String)">UnLoadAssetBundle(String, String)</h4>
+  <div class="markdown level1 summary"><p>卸载某个AssetBundle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnLoadAssetBundle(string projectName, string bundleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td><p>项目名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bundleName</span></td>
+        <td><p>AssetBundle名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_UpdateOrDownloadRes_" data-uid="XFABManager.AssetBundleManager.UpdateOrDownloadRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_UpdateOrDownloadRes_System_String_" data-uid="XFABManager.AssetBundleManager.UpdateOrDownloadRes(System.String)">UpdateOrDownloadRes(String)</h4>
+  <div class="markdown level1 summary"><p>更新或下载资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UpdateOrDownloadResRequest UpdateOrDownloadRes(string projectName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.UpdateOrDownloadResRequest.html">UpdateOrDownloadResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="XFABManager_AssetBundleManager_UpdateOrDownloadRes_" data-uid="XFABManager.AssetBundleManager.UpdateOrDownloadRes*"></a>
+  <h4 id="XFABManager_AssetBundleManager_UpdateOrDownloadRes_XFABManager_CheckUpdateResult_" data-uid="XFABManager.AssetBundleManager.UpdateOrDownloadRes(XFABManager.CheckUpdateResult)">UpdateOrDownloadRes(CheckUpdateResult)</h4>
+  <div class="markdown level1 summary"><p>更新 或 下载资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UpdateOrDownloadResRequest UpdateOrDownloadRes(CheckUpdateResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.CheckUpdateResult.html">CheckUpdateResult</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XFABManager.UpdateOrDownloadResRequest.html">UpdateOrDownloadResRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

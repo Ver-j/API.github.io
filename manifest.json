@@ -12,7 +12,7 @@
           "hash": "TsLWCHiOq17vZwBS/1BoZst2Z1NRxLB2yFViMi+n/i4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "MYCmHuR1noskacAROJ8baryuS6bfg0l1PPOSjkRxROw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "KvmJ1G7Kf6IvGp4fl4YR/GDTsF428B3ooauh/VAuTyo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "HNPGZiZaBfSkK1q6vBJ+g177KmLn5jUsQYMcDnCQoz0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "DPWSZLDzMF1wgdk6hG97EcevSdcHxAa9tDGBZY/ipIU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "ohZTtcUIVDacD5MWQxZsDSfyEC4kVOfRneY6GCE3L6c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "Sy6CFcLoj00UkFMJC+KrmTeqFdmi6cqewNwQhHun4Vw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "0iM9jWR+FuRLW86NPixk6bc5e4tk2XDM2AjzrukoYjk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "OpVWTt6qbhEEdIIm78HNB/IqcHBjeJXlr7l7LIokVTU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "KpEMY0vDNQAYamBUCUpcB5T0XVUAh9O2XyyDvdojbGY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "6HOhtcT2qUnfF9pfVICxicV4WSwlqdkt1pLIjuN+kgg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "np5ZT2EyFt0sVwiwmQLHns06A6dgHKKIRspurANJOnI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/LJF.ProcessBase.html",
-          "hash": "0B7ZN9UeCE1RP2y+yV6U65v/KDW3igEmU5ofADViW00="
+          "hash": "rj6vTqvayTl76dUOZzScu6qAOzNfIX8XFzC74FYMqXw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "MijUdukO5M7l6aNCnLLywU2xmluBqMgaALBQoaFcOnY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -180,7 +180,7 @@
           "hash": "LqiosgTxFTPJ7Q+rujq+3nsCCWalyYVKmqfO3LXLsvk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "A4jZntRVvxKJ8v2v14S82WYhsyn8Hn3dBg8Dw8mW1Tc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "z+g7JQqAaaC9J0NWSLuSGYzWHAFNbUdBRetZN5qbSzE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -216,7 +216,7 @@
           "hash": "HjSCx50t8/CoKnMUN6twze1eKDyK3YjGQvbu82dJ6Ns="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "6RRdAqotoRaAnwZ61k5+wO1pYoNDQvNNiSu9JX86B8Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -240,7 +240,2683 @@
           "hash": "5wLBZ2nvqL1JciAHVllpTmiPFfI7/BMmZ6AlZZorx2g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AnimationCurveReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AnimationCurveReactiveProperty.html",
+          "hash": "MPV5l1EhTIHr9WKsMpm/8iGKQVy9k4628WNG4pgaIg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AsyncMessageBroker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AsyncMessageBroker.html",
+          "hash": "nrwpI0Bb951mtZCQzWegCAdNbGBqZR2HvOT32+PYVkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AsyncOperationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AsyncOperationExtensions.html",
+          "hash": "MoO7kAC2pjGhpzbCu1gmqbDpEmSKO1TMPPC4XDaqYDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AsyncReactiveCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AsyncReactiveCommand-1.html",
+          "hash": "8SKFvoahpBf0fu1AQl7kFlCEbXjNX+rHg4jb6cBhk9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AsyncReactiveCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AsyncReactiveCommand.html",
+          "hash": "f/GqYLa5MH+ky6YKBU3DqlvaHYlgdR1hp2frAAumxV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AsyncReactiveCommandExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AsyncReactiveCommandExtensions.html",
+          "hash": "X1ColIzMq0Dnqm70uAd5mlVQyIIIJP9lG/fsGvdZnZg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.AsyncSubject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.AsyncSubject-1.html",
+          "hash": "jZJYqiQ1dlRycDET62edMsWrT23rUT7ShwIktnGLoJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.BehaviorSubject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.BehaviorSubject-1.html",
+          "hash": "3YtRf5voTW0T+CPyeJcos/3d9PWnJDtLvRaEuOYf1C4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.BoolReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.BoolReactiveProperty.html",
+          "hash": "RN3s4tB817hMmf21F3roxx22k28mBRTkFvVNloO1PEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.BooleanDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.BooleanDisposable.html",
+          "hash": "VzyOcbWsh80MqzksxnVULntIZTmd0/jMUWUv1A4nuDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.BooleanNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.BooleanNotifier.html",
+          "hash": "gYrXFWpv284R5KMWiOjQEMKkMFAtK/0WT8TAu59nu1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.BoundsReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.BoundsReactiveProperty.html",
+          "hash": "kor6UpM7fOGXtglEB1de/oMBf7EPcp6gxuXILsSpxaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ByteReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ByteReactiveProperty.html",
+          "hash": "5ex7rxb/tuu/hoHSrSPMjWkvjhJIbLmfAnnrxxjfjT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CancellationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CancellationToken.html",
+          "hash": "vujdTGcb9IBMPll0YTPZl4JSN40etiBpmf+ZiOrxbuU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CollectionAddEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CollectionAddEvent-1.html",
+          "hash": "DdGGD/JlWsEXS/T2ZfBxi+JZ703kcL0SGmyCFBV5d/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CollectionMoveEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CollectionMoveEvent-1.html",
+          "hash": "/vH4bChiRA9GYPEbXVVOOWBCGHL8kC/+CVnVhzRyxds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CollectionRemoveEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CollectionRemoveEvent-1.html",
+          "hash": "foO87i8IQBfBPmCiuxHIJ4GnOshs/4P5bq6cYuhT6x0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CollectionReplaceEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CollectionReplaceEvent-1.html",
+          "hash": "n+lZ12NuF5wvzRzRmtm4HhuGZVRD9oOzPXJTYL8kZkE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ColorReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ColorReactiveProperty.html",
+          "hash": "QTSdSpzSweRcHE21Dg/IfDk4IbAqIlgfbrfiebIf3Po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CompositeDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CompositeDisposable.html",
+          "hash": "K55BPVR/wY2hT/spJtJNJpaWabg8O8QcpJyfyBMdDqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CountChangedStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CountChangedStatus.html",
+          "hash": "ISEKFmUA60uao20uXrW5bOMLTzfkhLKm+5hTX/NuJkg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.CountNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.CountNotifier.html",
+          "hash": "7wU5xAD9uKHulNFqIY0D5PzOZR3pMP74ghD+QPur0WI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.LogEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.LogEntry.html",
+          "hash": "HviUq2biE1iZhbW4AuKE3eNygiKenZBadyfS335KPKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.LogEntryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.LogEntryExtensions.html",
+          "hash": "CGkgqFPfG/ZpgzxERuLOVrThvMEucSwXD6WrOH2GJyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.Logger.html",
+          "hash": "w4gNE7h6yjtBVKdfBsiOft9uBV659jMFajTJzkYot74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.ObservableDebugExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.ObservableDebugExtensions.html",
+          "hash": "ZwODZeQGWYD1X303t01MJuMFxuJ3bSFUD94bxxJtCwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.ObservableLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.ObservableLogger.html",
+          "hash": "XwM58Sxk1jYe9IFhNhbrP07+SStDsZlsRrYcqB9Rzh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.UnityDebugSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.UnityDebugSink.html",
+          "hash": "yimhGRiIFaN3Msy8SEFaJKzs2Hdjo+3h7azIMb7KBn8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Diagnostics.html",
+          "hash": "BWXDDkBFA1GAZ9peHNvbzZWtCaF05qoBdqItYKsFUmg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.DictionaryAddEvent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.DictionaryAddEvent-2.html",
+          "hash": "pbof6pxvstLgvcT1jNlyKeDltLC3gLRDqX3smy2lIrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.DictionaryDisposable-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.DictionaryDisposable-2.html",
+          "hash": "nIALE8K9txJzvL/twB0GuHPyq5iWj4U0MLFGfMEixqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.DictionaryRemoveEvent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.DictionaryRemoveEvent-2.html",
+          "hash": "hPbPIVPkuKSiz6+RPdoTWzDwfoYqdtpQ0z8+3T+tFds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.DictionaryReplaceEvent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.DictionaryReplaceEvent-2.html",
+          "hash": "N/G0tDY16DUX1xCv/8+5H265STgtOEHAZLfNDoy4ODY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Disposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Disposable.html",
+          "hash": "qkOYoV1YoBiIEVlUc95YI5wpL75Qod6ZQuMAoG2ttQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.DisposableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.DisposableExtensions.html",
+          "hash": "49+BsV8NALTVQt0f9/awCme8MmpGIV2hLJev3FYU+0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.DoubleReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.DoubleReactiveProperty.html",
+          "hash": "g4WXDoX0rQA8tXPAgQoEsLzo7wvTUV1S6BkCQxaJvjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.EventPattern-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.EventPattern-1.html",
+          "hash": "gSQYSJjhfg4L167CpLeG8qugXpIU3RVxgE3r0OrT/O8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.EventPattern-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.EventPattern-2.html",
+          "hash": "VWOYAnL0bfUBkJRj3PcWeIy3O7eulllSwLENRG2GloI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Enemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Enemy.html",
+          "hash": "EApQYT/4squEEQQXCXbXXF713w/mS3jAOo82fEqyzD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample01_ObservableWWW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample01_ObservableWWW.html",
+          "hash": "PlKtA2RlCGv6YIN7quAffwjBSSF5HCD40QdH06y15Ik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample02_ObservableTriggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample02_ObservableTriggers.html",
+          "hash": "qQ5dxHJy5BUOgwrhHND7rPZzugNfVY8rgJfzQZ4BCzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample03_GameObjectAsObservable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample03_GameObjectAsObservable.html",
+          "hash": "WkAdbfaerR0+VIwwNVkL7L3yKe19Ws5rJYgq1XkBkh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample04_ConvertFromUnityCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample04_ConvertFromUnityCallback.html",
+          "hash": "W2ifG6Cm/dA6FlDNSKRoEGn64bOw43NsT73BKSv9+/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample05_ConvertFromCoroutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample05_ConvertFromCoroutine.html",
+          "hash": "IqdDc34E+DllM6Bxm4ZIJAY1uDAfwf7EYsI1VG9MPO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample06_ConvertToCoroutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample06_ConvertToCoroutine.html",
+          "hash": "EeViAdGuf2QWsCFujJ5P0DXfEyxl1Iris1vJ+iiSaGk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample07_OrchestratIEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample07_OrchestratIEnumerator.html",
+          "hash": "71T/+PXuq53MxylHGxh42uCAHQDXJ7aL3HIWva2Q2OY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample08_DetectDoubleClick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample08_DetectDoubleClick.html",
+          "hash": "WPbzkNOYyzg4gSAnYFwD6iQG4jjNopOH5Pj82mk3IWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample09_EventHandling.MyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample09_EventHandling.MyEventArgs.html",
+          "hash": "L22YpfVh+XSDMMsVnIkw+Ohp/qpzcAAZJZIVb/2cnwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample09_EventHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample09_EventHandling.html",
+          "hash": "2BnkA14hybCKFoqPkfMpkImdisERFnvIu0O2peWH1Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample10_MainThreadDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample10_MainThreadDispatcher.html",
+          "hash": "9BGlr4NLRjnfBD8oVJ7pUJMPOuSxcRRXLAuMUpX3+pQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample11_Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample11_Logger.html",
+          "hash": "21NeQEW6cMpGXTAqo5YDMZgckbyOzDyAxCEZXlk882o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample12_ReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample12_ReactiveProperty.html",
+          "hash": "v+tkQSYV9nGFYcG6nnEQ0FVANRBLVD7RUfP0WkUJ20I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.Sample13_ToDoApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.Sample13_ToDoApp.html",
+          "hash": "0mNjqRP0IwqFq9HPymlkEsnygCU7hLB3dWOotamgIHA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Examples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Examples.html",
+          "hash": "Lf0EQBkeqpp9/dlVThEuHQTeNQkFC8ju2ZIy9x0FQFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.FloatReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.FloatReactiveProperty.html",
+          "hash": "iyM2hOm46PqcpFlIjJJ53lbrqYQVm6ZbTiRuyldaFCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.FrameCountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.FrameCountType.html",
+          "hash": "ee2jtzcZ/oWboiaPXRIo6NZdTi9WJIfCwF7DXqt30ag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.FrameCountTypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.FrameCountTypeExtensions.html",
+          "hash": "mbJNjD7y0dCOyvBW+/uIxF4ZxatFMlCZhzLku9RTpfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IAsyncMessageBroker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IAsyncMessageBroker.html",
+          "hash": "DLS/BV/pLrsYlCRHCAMe2XOPWG+jwV4aRG2zWIQsvN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IAsyncMessagePublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IAsyncMessagePublisher.html",
+          "hash": "SK8FIoxVxyl2fRjVr7zz1iTk3klhHQth+Q7I/0+W6ic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IAsyncMessageReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IAsyncMessageReceiver.html",
+          "hash": "8QPMMQGsK+CtGcbGWAeYBqZQRN0bKlaqqfTejvzhv5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IAsyncReactiveCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IAsyncReactiveCommand-1.html",
+          "hash": "vphVJiPby7tKcuac8uSwdu5F5HOJKbvaS8up2iRENb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ICancelable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ICancelable.html",
+          "hash": "OsVTVpK7oENefR/GZ2prhJJTLUNk55FUTyr6580hNf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IConnectableObservable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IConnectableObservable-1.html",
+          "hash": "n2lZ864lrHphOxniAWFhZ2D69nf4uT0Kl8cM/OdBvHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IEventPattern-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IEventPattern-2.html",
+          "hash": "WB9msa+3f2vmKPpve91FKw6lzbGb08DiXXFH6ZxBBio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IGroupedObservable-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IGroupedObservable-2.html",
+          "hash": "I57YbH9CpucwZu3tZIXOdE2GKKlljLuSR+criXDHbSg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IMessageBroker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IMessageBroker.html",
+          "hash": "0rOT+rODDwVIZV87XVfyMBpbaxMSZNa7lxYAMiJQKTc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IMessagePublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IMessagePublisher.html",
+          "hash": "OwDUdvpd5/tQNq2sXstnXdOBkHbscmgUeph9KobGHEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IMessageReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IMessageReceiver.html",
+          "hash": "9Jj1zloN9x2d532DhBksKhigqT1+NrbzkmfzM/S+g2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IObservable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IObservable-1.html",
+          "hash": "yhpjtB5yE4r4UqoJxtp+b+AGIbmH/GRmlfHLQ4SJUUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IObserver-1.html",
+          "hash": "+51ni1ddbIizJMc0q/KflkOiivuX01n+bYLSxobJmh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IObserver-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IObserver-2.html",
+          "hash": "7OFuAv12d67RHcJDy33tm42LVV26LgCa/Kru5Dt4jwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IOptimizedObservable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IOptimizedObservable-1.html",
+          "hash": "88HsVtvUtLcT0gHkhkCSw2GQ4tsEeQsqeUaLNCz74Ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IProgress-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IProgress-1.html",
+          "hash": "ee/emZ4MoGV40mcxkxDecFpGdPJi6uto0VF6kuT3Ab0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReactiveCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReactiveCollection-1.html",
+          "hash": "VTH95IpoCL+6rrCCtIoT3PT59y0gs1AMv5QYin0/uZQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReactiveCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReactiveCommand-1.html",
+          "hash": "NuZ5HjTbg2XQ7qQdJfY0wf0sg6bylIiYViSL5ItGCHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReactiveDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReactiveDictionary-2.html",
+          "hash": "zIIjPLoY9H+nPWZvGfaMEKf7b3EmDGbVhmJrJy4Y38g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReactiveProperty-1.html",
+          "hash": "7Kv0Inmrm6NcPFK8MDYyCTT9wAaJXdpAjwrnaj8ris0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReadOnlyReactiveCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReadOnlyReactiveCollection-1.html",
+          "hash": "e9aYt/azY9v1+b/qVpCSML04ClIrzfVEfSply6e6m+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReadOnlyReactiveDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReadOnlyReactiveDictionary-2.html",
+          "hash": "YB+Ttk5iCCEALuXWc80f+sBZz3JiQrcro/q/fg+6TSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IReadOnlyReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IReadOnlyReactiveProperty-1.html",
+          "hash": "mSO1XQQSvhXHTZ+t8cVgMDukRhvW4mWfrnLoLEzi+x4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IScheduler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IScheduler.html",
+          "hash": "cG9nd2IORmsNEo1+sSpHXvAOWSOx6ZW+G9pA01GTk50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ISchedulerLongRunning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ISchedulerLongRunning.html",
+          "hash": "oxJ3tLPlQc5MRHNIHZ8ZkJ45h4/K2STYcb8huxRsJ14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ISchedulerPeriodic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ISchedulerPeriodic.html",
+          "hash": "kTtICjYfZMNgI9A28n38m3W1R3Gf9vBz+c9D5RJaEK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ISchedulerQueueing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ISchedulerQueueing.html",
+          "hash": "OOJQihdQjaAB5NsMkRAXzhf+kQX497J7J5qEW4mDLME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IStructuralComparable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IStructuralComparable.html",
+          "hash": "MKC7Dog+gPqZSboalx5WWZCjo3Jz2mHW7feBMLY/HAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IStructuralEquatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IStructuralEquatable.html",
+          "hash": "x2EFgyE60G4UyNPCIJkUe9mpOOAPF3M6S+9mlz8AY7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ISubject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ISubject-1.html",
+          "hash": "4nG9xts/MssCnnM9USSEYZiJ06n+DlJnmknrJokom9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ISubject-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ISubject-2.html",
+          "hash": "WrC2FPsryf7v2SASXpqg4VfGnrsVUG0Qf4ppEV8iaSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InspectorDisplayAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InspectorDisplayAttribute.html",
+          "hash": "mCpUXllfCObAalZLX6GY8SY7xYTo1eIxnw3Lo/EqwFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.IntReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.IntReactiveProperty.html",
+          "hash": "zv6TjojTMacrc6v3zW4CZso0yx1VAWWgratsPB+Fg10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.DisposedObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.DisposedObserver-1.html",
+          "hash": "1n8VQUXZ5a99GPb8yH3c9AWPtq+ZmOz+QHxUDULyEMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.EmptyObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.EmptyObserver-1.html",
+          "hash": "GYA1iTMj4q4IFcMGfx4zTHVmXEML8SmEyoUnDa+mcis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.ImmutableList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.ImmutableList-1.html",
+          "hash": "hxiIE83K2IZ+U5KOdZ3Q+aHnXq/LEa4QYv4NzyxktV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.ListObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.ListObserver-1.html",
+          "hash": "bjY0lGMqOuiiVd1A7bH3s1Skh7Eg4eMtPAHnYjlPAhU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.MicroCoroutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.MicroCoroutine.html",
+          "hash": "/KZX/DrFmhsjt4V1OXcLcyWxXIFlR3AJ8n2Sk+ODijw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.ThreadSafeQueueWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.ThreadSafeQueueWorker.html",
+          "hash": "RTZbEkwhfq40zJNFVx8RIx55Uw217UQWy2364ncdAcM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.ThrowObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.ThrowObserver-1.html",
+          "hash": "+XIrB6uKNfRqMruIsYqvEevkXCCqTU6NQIk72KdYsLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.InternalUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.InternalUtil.html",
+          "hash": "c+w/1AsGsLPplm+bXUqBqSalWHqYy0DZc4UEDQ18RM8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.LongReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.LongReactiveProperty.html",
+          "hash": "aDg4tzWSo+34NfIZBER8jATiJ/KkaGRWH5zpymbF3vA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.MainThreadDispatchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.MainThreadDispatchType.html",
+          "hash": "1VfvGYh8w39ASuhNAML64gPaPX+Jb+pGUwG7zFiSGU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.MainThreadDispatcher.CullingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.MainThreadDispatcher.CullingMode.html",
+          "hash": "BcPAxCL5os0DPFvenTYS/chguPBjhCmQk0Wh1YSmAf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.MainThreadDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.MainThreadDispatcher.html",
+          "hash": "hFBST+lnrSrNdDWkaoW3rPGxrFIwzYy3Xkp5k9ekgBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.MessageBroker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.MessageBroker.html",
+          "hash": "IdwonEeb37bRa5EqPmMmGYWYtMOWAPvyyyvngyAxNkM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.MultilineReactivePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.MultilineReactivePropertyAttribute.html",
+          "hash": "sqxj6YFyFt6h5FDdPFpKgUbC8fSGuoYCyTYGpuCbT5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.MultipleAssignmentDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.MultipleAssignmentDisposable.html",
+          "hash": "9f24MPfl/w33OJVK5n0OubDg52Bt+ItN1Z4Z6L8epQ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Notification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Notification-1.html",
+          "hash": "eBwFwTgM5mLLhOtw1AsBZXzX2HZo3y/MEGs+EtcU32A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Notification.html",
+          "hash": "gT/tEIddqNI/JU5JiMtBHGUgexydreZcZ7NfDHTRxUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.NotificationKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.NotificationKind.html",
+          "hash": "p77RjgeCHUwslhQIKptO7WS7pJh0QLAXbZo6Y+9x2Ys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Observable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Observable.html",
+          "hash": "lURBgyoazmw/WY4bMVF2r92uGfyXwf5BT2oJgcT5nO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ObservableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ObservableExtensions.html",
+          "hash": "tYKCYwlm85o5liFiQ03bqcopguvp2o7/XkpRhYq99pQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ObservableWWW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ObservableWWW.html",
+          "hash": "SJMUgog4VgGdP0bNqk7CP11FdQpF5ALKc8Amyh9pLLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ObservableYieldInstruction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ObservableYieldInstruction-1.html",
+          "hash": "JMkv7HoMnEkg6RiVJDDvvAcBlasDoWcC8+6IE0mth5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ObserveExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ObserveExtensions.html",
+          "hash": "D8OJqNDCn8YJf/Ed+5MZd5d/ck6WXNWvW42FdKi3ZCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Observer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Observer.html",
+          "hash": "cGlS+mxxIdd/34iIt0UQeqd6uwJwpu6WDyaSsWt0Xt8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ObserverExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ObserverExtensions.html",
+          "hash": "MCsI15TrDmDFZgmL1+Dt4EJJOg0gel0Mc5X4RVMISAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.CombineLatestFunc-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.CombineLatestFunc-4.html",
+          "hash": "k3+MEV2+/OWKJCDkZyDfqc+rlIirMjYZYQELjcSXtk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.CombineLatestFunc-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.CombineLatestFunc-5.html",
+          "hash": "C4ozqIx7a6j71IdxDkgEVPFyWinatUC1IoNwAQNfea8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.CombineLatestFunc-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.CombineLatestFunc-6.html",
+          "hash": "Qn49uXiFq3wk/Pvt5REGhDCK4eYPrdBtHcfAnJUPqtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.CombineLatestFunc-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.CombineLatestFunc-7.html",
+          "hash": "iUyNm/M/YZRETFIAsVCIxQp24PfDi2eaIrAN8x7hwxI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.CombineLatestFunc-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.CombineLatestFunc-8.html",
+          "hash": "dCAOVnRRTUtlu/PWWChC4fjAakR6ke/7iz9ZXC5CNzc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.OperatorObservableBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.OperatorObservableBase-1.html",
+          "hash": "QDxZhKXs+oaYp0ranwyYEoQ4Q3zZ2GhsAiBGFZyEBgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.OperatorObserverBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.OperatorObserverBase-2.html",
+          "hash": "QKczvXz/IAXAXa3ur4yFw32eyMyvSngbl53LHwaGPp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipFunc-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipFunc-4.html",
+          "hash": "XmUKhiTat0519Dk72uz32EhrMja5AfUiBYa1JasLtE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipFunc-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipFunc-5.html",
+          "hash": "2EQMcFxIpQtvAV6wOu5NDmBUntygDli/0NsjKE/3Ta8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipFunc-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipFunc-6.html",
+          "hash": "wrju3OC6BUbCNOlbVPo825i81bvDTfHDeLkOQ7gtgAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipFunc-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipFunc-7.html",
+          "hash": "Cry88YPpndhBV1T9vBPCXxtHRZWHZRV5i38Wn57ap9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipFunc-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipFunc-8.html",
+          "hash": "E85Ia6hN/JZXw/ifL2qOIGpVvH5vkvBN4M/SifhO9GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipLatestFunc-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipLatestFunc-4.html",
+          "hash": "em+jyPvLX9Sdy33+Wp1ji0l7iH/vmKaCy6w2UZVHNWw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipLatestFunc-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipLatestFunc-5.html",
+          "hash": "rLllQpFFajG/qL6/FX8l76phVGhOOaK45ZunNy43anM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipLatestFunc-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipLatestFunc-6.html",
+          "hash": "uj8UBrUu+41lZCmDltcY3avtF+4xt0SMEe4PAu9iqXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipLatestFunc-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipLatestFunc-7.html",
+          "hash": "c4HxkoLtNx8C8kbapRVSDzU6iKoT4zo+IyrpWGG+OnQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.ZipLatestFunc-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.ZipLatestFunc-8.html",
+          "hash": "RQCQPivd3OuC3tmr6cBtnhtXUHbO3QHUbd6asRNhp/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Operators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Operators.html",
+          "hash": "K74yMBjVWogEqE52hTvrmllnlt5LXXVciRE/C3fly5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.OptimizedObservableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.OptimizedObservableExtensions.html",
+          "hash": "y9c10A0c8AcHdPPjBEsgcpMx4EKfrpWohK8qY0xhyyA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Pair-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Pair-1.html",
+          "hash": "ib8S5su7THwicFaHg7JJ7tgqsI7LEu7BxAZSjDnV3lQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Progress-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Progress-1.html",
+          "hash": "yTyvO1lxFmd3HoNlxT6D1XX2goTZ5p4oTMuKXLdzERc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.QuaternionReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.QuaternionReactiveProperty.html",
+          "hash": "KgvMbvjcPhGAzJwLKi6HqSx/i/pzfF0xZMv0VhT6TVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.RangeReactivePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.RangeReactivePropertyAttribute.html",
+          "hash": "mkuIu7OwbfxdqK9CnHxY8xbtY2gC2Z1AN0DwGoD+JTk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveCollection-1.html",
+          "hash": "Qydg4FKXXI4t/BaoIhCK/pXu1MYs1dyPBPJcNgGKVg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveCollectionExtensions.html",
+          "hash": "6a6A18P7iRlJdSJYrXYR2yLZa9ba91/s4nWqXgdn0f4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveCommand-1.html",
+          "hash": "jdk+z86dcFQKsTmELolDXxYaFPs2xkoB/9153Hmfd4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveCommand.html",
+          "hash": "KKh+C+KlY5hxbe61g1LuDcv93TUaI0ellIdf23aj3CA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveCommandExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveCommandExtensions.html",
+          "hash": "nzEdP7NiH5M+ZVmssRg8AYet+5AmgGUk9EPLvLxMegA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveDictionary-2.html",
+          "hash": "wLq9C7hPEdTJ1XMfzxn9GmPjHag4UxExksQ2Xv2zjKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveDictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveDictionaryExtensions.html",
+          "hash": "b6VXpwdGJG7z0XR/QaXAajplMSepHfIgln+gve5LCJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactiveProperty-1.html",
+          "hash": "S43uFoRbCVKjrBnQuK9Nf4U0nEY4YiXJy4E3bWolboA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReactivePropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReactivePropertyExtensions.html",
+          "hash": "y7cG6RMDYDE+h4WOq1TbpnTdg2SQej6NvfZ/RCtaFJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReadOnlyReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReadOnlyReactiveProperty-1.html",
+          "hash": "bflGOVuePDqvq7sI+Ymx2vFejWVo3V+job7QUdsXFbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.RectReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.RectReactiveProperty.html",
+          "hash": "bCMo9IzfcCfDZSZk44ysrUkV1i+qAsvHYog8r9MA/Ms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.RefCountDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.RefCountDisposable.html",
+          "hash": "2vhr+d+VQZ3ZnY3voTuUWHCpnMeZzh9LAfaSvh7LqD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ReplaySubject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ReplaySubject-1.html",
+          "hash": "ugxb+f4X3NodtGGqiE8IMTcDo9Y6gyDO8h766g4qfKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ScheduledDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ScheduledDisposable.html",
+          "hash": "0ng8MpfW2xbeYu/G/jQBnbh7utUnVnrEepKMdVXVvy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.ScheduledNotifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.ScheduledNotifier-1.html",
+          "hash": "A2gxOyD9Mlxcj/stMEBaIoqo7zEwrMmPwLkj8FWJ8JA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Scheduler.DefaultSchedulers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Scheduler.DefaultSchedulers.html",
+          "hash": "J2igTD9XX839UN7to/sP3ciVmPdqFQGdRYPYxuq2oh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Scheduler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Scheduler.html",
+          "hash": "0P/1tX0YXyHco7s0OKbic3790ouozj27ktbuoUwUXs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.SerialDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.SerialDisposable.html",
+          "hash": "tIRMeOsGdRgZM0OGZvulbyRL7h3T0SAzM0xpsAnWSvY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.SingleAssignmentDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.SingleAssignmentDisposable.html",
+          "hash": "FlwhublYqhvPW38ueR5wFtvi6hC1uPg6vrRYCTiCEE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.StableCompositeDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.StableCompositeDisposable.html",
+          "hash": "sREY9OJfqETyfCkd3B0rLtbkEJinIk3rkWk2DUxXu+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.StringReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.StringReactiveProperty.html",
+          "hash": "nd/YkTzHRm4/Y4rPQNLeyUagxZndsgppG79APbEtA9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Subject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Subject-1.html",
+          "hash": "WfGNRkGHPaq05TsmpPHbcP68ZANVqvgZo5pxr6FvsKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.SubjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.SubjectExtensions.html",
+          "hash": "iCbKL4qw91pqLFp5UigfTB0AuHdBw2R+/qiBFso1FTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Timestamped-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Timestamped-1.html",
+          "hash": "fVL8Bk3lts0X8J7QbFRs/8U/clloCAC17UDSFMjs8kM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Timestamped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Timestamped.html",
+          "hash": "z4SbPmA54yJyDMvtypuVS0X2Sau7H88zCv2yK+gBdYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableAnimatorTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableAnimatorTrigger.html",
+          "hash": "RNuTnv+RiHjUc3TRlJ7tjWjySqvKumBxgxv230lyFpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableBeginDragTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableBeginDragTrigger.html",
+          "hash": "u9E5pjxqv3iXK0uL2YgqIDCkXjeo+wASHSxpSULvu4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableCancelTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableCancelTrigger.html",
+          "hash": "2UfmLtHhKdB1PCIiczHOkAkjqodPr9s7D7801CECq7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableCanvasGroupChangedTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableCanvasGroupChangedTrigger.html",
+          "hash": "B+qoSRPvgla84kgunGWk+X391JmcPw+dpPM/fRR2HLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableCollision2DTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableCollision2DTrigger.html",
+          "hash": "cQPHUMFBdTw1q+N5+HPsDxmlXkYKXwvAW92J0smx4IY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableCollisionTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableCollisionTrigger.html",
+          "hash": "CIvawz1WLG1Pe6X4uk2mdZ+oaSlxaMrg6ROoexZaav4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableDeselectTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableDeselectTrigger.html",
+          "hash": "4YYYp28LpP9ldl4fqZ7u+u1e5l9MLNV9pRO1wcb36vo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableDestroyTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableDestroyTrigger.html",
+          "hash": "cA2tcOJYJMXYqVuVtTS8W1+13NKmyzKDw6rMbOYjRg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableDragTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableDragTrigger.html",
+          "hash": "XU4mwoqoUm9YtT7xh8G43niqiSEe8J9SoWjV5tJn/iY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableDropTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableDropTrigger.html",
+          "hash": "he5yuKXZdcRrxACILKuQKWFoyqlM/YJedKS9UzoKyhY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableEnableTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableEnableTrigger.html",
+          "hash": "bSCYFuT7qutEI+k1FK17D4Mf0gEit51CsOChrlGkjwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableEndDragTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableEndDragTrigger.html",
+          "hash": "eVYoqcuQmeXbmYQOyBQHp8fSGHORy+lO+qRYzDIwA0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableEventTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableEventTrigger.html",
+          "hash": "06j+WYUqLQZYXV1enX58398hY5VR7WsCQS3vR2cfOm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableFixedUpdateTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableFixedUpdateTrigger.html",
+          "hash": "RARmCCjtpQYvzUoER++ibU3MiRh1cTPTtHek4DqYxQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableInitializePotentialDragTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableInitializePotentialDragTrigger.html",
+          "hash": "+2sP4FWZbpftG076X79yhq+M69j7/47AqZLczA68Ang="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableJointTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableJointTrigger.html",
+          "hash": "2QkC2wh8/Od+wO+CeOXZ7WygtACdJRGEqcqDf1S9JmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableLateUpdateTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableLateUpdateTrigger.html",
+          "hash": "95/RUcSelQUF8XAGiQXJsHYH7Y+x2s0GvqupdtbQ8Tk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableMouseTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableMouseTrigger.html",
+          "hash": "DY1yfiVe0zcuYWDrPt86o5zd0GClqjYUvAMBIosEvWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableMoveTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableMoveTrigger.html",
+          "hash": "cYVxRvva+AA5rjeQ9SrUitfB1SWPL9tUP8PbRrneEV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableParticleTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableParticleTrigger.html",
+          "hash": "tBfm+SYtm+jA2SP5MehbB6MR6W2NJXBPFxL5hZ8jwwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservablePointerClickTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservablePointerClickTrigger.html",
+          "hash": "pD1Q6AyN30lp86qVxrqjW/JbQi7XwRRKpnmNdh/dg7g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservablePointerDownTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservablePointerDownTrigger.html",
+          "hash": "iM1qMTVpbr3jnxA8CpdHwug92XD+i04Kja0nIfKcA9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservablePointerEnterTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservablePointerEnterTrigger.html",
+          "hash": "ugXfLk/SzpJov8CyfdBqgXW15TawwsNO2VPSTm/YV9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservablePointerExitTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservablePointerExitTrigger.html",
+          "hash": "UpC5L4wgmCHNeX6tcjCjLkhSzIpEA0Y36bY9kn8XOqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservablePointerUpTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservablePointerUpTrigger.html",
+          "hash": "A3WN5oqM9gWTetRwF97ol9FJpDBeCLbC9D5vmZjMJQc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableRectTransformTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableRectTransformTrigger.html",
+          "hash": "tdLxkLUx9Q7dCsS19GKryCc999Och0mIBjIQh3g3/LY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableScrollTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableScrollTrigger.html",
+          "hash": "dgcDlk5IxioeMJ3bN5pV6XqoOGZQ72jsJrZKLZBk6zE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableSelectTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableSelectTrigger.html",
+          "hash": "JE+E6y9XBnkK9xxuOOWIucm7MlUjqBgT27lgx04Q3qY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableStateMachineTrigger.OnStateInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableStateMachineTrigger.OnStateInfo.html",
+          "hash": "rkZs9CgACkdXGVbM/DB6xDKLwr9/QV9VFyBFUXCxeBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableStateMachineTrigger.OnStateMachineInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableStateMachineTrigger.OnStateMachineInfo.html",
+          "hash": "cyc5J6Hu4NFt4pHbHBq41tOG+amxY+YyqrD4W0aQmeY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableStateMachineTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableStateMachineTrigger.html",
+          "hash": "nxDuB9HcT9ImD15YUGUdyQ+rR2ymQA2XOTCqjtM1fEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableSubmitTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableSubmitTrigger.html",
+          "hash": "pGMID9jYxbVLEL3Sf2ghCtp5oQ6jA2uKEIWEeaA67O4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableTransformChangedTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableTransformChangedTrigger.html",
+          "hash": "bcqQcQIFejbpAiVSo4kdiNwlsmH5DkW48zzcrz/BgYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableTrigger2DTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableTrigger2DTrigger.html",
+          "hash": "EPqUtUv0ECVzG5uVIy3hJRQeU6/l+NultqtzLgBHRY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableTriggerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableTriggerBase.html",
+          "hash": "fBKcl7az8/0G2L4V4Cs/OnAROQA3rWXgHUDTPdakL6M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableTriggerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableTriggerExtensions.html",
+          "hash": "p8unO7y+IyDSf8+uD2Hxr+MuQxL/g4jn0/6ECuAt4BM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableTriggerTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableTriggerTrigger.html",
+          "hash": "bI58xneDLALMwgBicc9thJBOvYDTZzr4fr67gtH0d18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableUpdateSelectedTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableUpdateSelectedTrigger.html",
+          "hash": "uBZZ51QW7ly/5hPZ5OURkXyDVkVK3Gyl8Ao67doYR5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableUpdateTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableUpdateTrigger.html",
+          "hash": "SprerAUX33L9BJ3QJBwuC4TWYkVSegpRDmoptw2efJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.ObservableVisibleTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.ObservableVisibleTrigger.html",
+          "hash": "Cr/iDgKBXexDbYnwkvl9/sAmVZn28F3e5kP3JhgrA1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Triggers.html",
+          "hash": "J0yjxvS9Q4cbhKQ2lgJpUwNRkMOKlDp2Nwa++chHVFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-1.html",
+          "hash": "COZOnSq8R4RkvSY4WeyTVVvWUFhCy9jDy4LNAUbku+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-2.html",
+          "hash": "6f0s37beJtB5+vsuvQ0bDHlAR9WWxbIb8x28bDKVE3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-3.html",
+          "hash": "PmPyAWxqR7hvHOQpXcoX96lGue4zwcB/zLM8/y3cyfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-4.html",
+          "hash": "2kZaO+PGb/ujDJfVYkkl9bnKega7JY1n0oEtLhwYzrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-5.html",
+          "hash": "TckYde5nshgHMlDnIoqrmj2uEaHg0BFiEefEm+n4WsI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-6.html",
+          "hash": "+6+dykACtfnBHstkh7YwY60X7sSJAL+k35MthcQwVSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-7.html",
+          "hash": "SQ7JA5SK84xgpzeE0Coa/P9RmT/iJFktvdO2D8ZQebs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple-8.html",
+          "hash": "CLgPADqQlgJz1fXO5PBrxaVUAxlThDwZjCVCp/iyOrQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Tuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Tuple.html",
+          "hash": "p1aPR3p4Fw9DD8qhXUrSnlHV8R8GHbfxRpg1Y9+ngB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Unit.html",
+          "hash": "QlDMPpS9vqSTKFxLLq5IUrbck6GCcv6oWC6Zy0QaUl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.UnityEventExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.UnityEventExtensions.html",
+          "hash": "hq3BkaAs1AxzVyv91aiPXdmiwXHVQDmwfIYIhDfwnJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.UnityGraphicExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.UnityGraphicExtensions.html",
+          "hash": "mqea6UudyIAiMEaG73Piz69ozlrXTNBToZFA8NvulE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.UnityUIComponentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.UnityUIComponentExtensions.html",
+          "hash": "aBtHA8ChLPFzj0UfuZ3gq23o1P/alFGJnomDebG7g/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Vector2ReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Vector2ReactiveProperty.html",
+          "hash": "a/lJxbshi3aSp25YYp/d9m4uZEDuXQvsNG1SGMhiJUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Vector3ReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Vector3ReactiveProperty.html",
+          "hash": "uzsGtZjF+t+iMHlxG39/mqE3wICngNLorkxuJKhz7XM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.Vector4ReactiveProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.Vector4ReactiveProperty.html",
+          "hash": "/qycb50WLOSR1YOjcGpr2ZhMaE1EsVkdZsGI/KCyNrU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.WWWErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.WWWErrorException.html",
+          "hash": "ED48qDOPvrkZKJd+jQZPVmPFatnTNdZsTRwTshbZ3z8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.WebRequestExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.WebRequestExtensions.html",
+          "hash": "p7X54S4stwiO6hu5rCJuPKmcCZ/ym9amo8V6MqHmbCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniRx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniRx.html",
+          "hash": "1T/0qgnOZZjcZtitnx7jJKYBrjzLE+ZSYEhlziv+9kc="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +2928,7 @@
           "hash": "r9Y/1VGx1Xc2qHvhGkjlnwx57LeCMWBhgCJTRjZcRUM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +2940,7 @@
           "hash": "JYOenrd5oEL6gEQNJhO63OWJsFsO2H1DGvGwOE/lAPY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -276,7 +2952,7 @@
           "hash": "MZJDCw+8A+Y9FhY1THFYxcrG2qzq+ouXa18VyBW9YnU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -288,7 +2964,7 @@
           "hash": "laFrdDcIW2cpw937Qpk+hUmT1Vh2QiS1ADO2jxaC08o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -300,7 +2976,7 @@
           "hash": "NHh3mkcqVOAuv7SPhIN7vxqT4epC/RoHvJQ3V5M8kAU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -312,7 +2988,7 @@
           "hash": "wEnksJQGVq/EMOUSfc7WKtUugyoou+TcRToz5c2SOHc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +3000,7 @@
           "hash": "qx/ag7l4cCY7rzAkmVOBgf9yNtWjQqlP+T8egFowOyY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +3012,7 @@
           "hash": "njBFnzmxni+EGl17lz1oonwIOBnAGi3HMGB9rjL8jdQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -348,7 +3024,7 @@
           "hash": "0lumEX+/glKODSyGbBsjp7rOwWdDo1vB8yegQLmXz6U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +3036,7 @@
           "hash": "Ndglj0Ls8KlSOoulFj60QUSLK4uH0e4WaYAsfBgqn6o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -372,7 +3048,7 @@
           "hash": "Vu3gd9crsWWquzV96tJhoCKot4kEZ0XVrMrUtUbiQec="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -384,7 +3060,19 @@
           "hash": "USv9yL1OwNCGXQsUDgsSUtp8tEOV2O5TzlCLMVitM9s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VFramework.Editor.CopyPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VFramework.Editor.CopyPath.html",
+          "hash": "sG7CT/85zAwAzCb21BEd36FIKSstbZWRkojshA2giis="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -396,7 +3084,7 @@
           "hash": "y+HCHdCwOW+KRSExjn5beDqWaFkolwDvcs5ogR0zYOA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -408,7 +3096,7 @@
           "hash": "T7RaXargHQn1j4bA+agXOEZ4WK9+nRT5qdZsPex+8X8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -420,7 +3108,7 @@
           "hash": "ejfcrX2wJoa7T3fghpifWXe6tkF2DCys5CRq2nsKEYY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +3120,7 @@
           "hash": "TloQn8DzEqzLZ4iToFZzOY1Zz241vAGnAVtm3jXZheg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -444,7 +3132,7 @@
           "hash": "NNsqBSWHlcrd3wDqRuUqR3Eadje4KYcJdbzsdNnYSKI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -456,7 +3144,7 @@
           "hash": "4TbBCe/VzaH5Q3h95HkbR3D3/ggbVkZ4pHZ925W4crY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -468,7 +3156,7 @@
           "hash": "ykrO9nOC6xQLAri0wtDRl1K23KHe1wMy5BqH8PhJzQ0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -480,7 +3168,7 @@
           "hash": "ir3G78BmCEIM1s5NuXXq/kb05LzGyIhoRW2b3WVoExA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -492,7 +3180,7 @@
           "hash": "t059qnUIuDaZLDDwSp09XVaJrdYtDJt88JTrX+e6qIQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -504,7 +3192,7 @@
           "hash": "ngOyc7/ltpu5itgCzxbQ0mD6p4AtPphoRPNyNTqd2cc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +3201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VFramework.Editor.html",
-          "hash": "zJii5LW02agLkM8V6M2ssiHy5Q2yHPHKjHMgFSdv26c="
+          "hash": "LIo+PKu+Y5Zwu/Vxm/o0mGKauFh/RkUnWzcaQGcWZsk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -528,7 +3216,7 @@
           "hash": "MI0dPktDIsJ5U+lAIzpY+Vs+jFFO950lj+FBkgD3xwU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -540,7 +3228,7 @@
           "hash": "sOaDER/9P8rBPeGgWI5hoa73rsT79HwOnVMhIq3WeSk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -552,7 +3240,7 @@
           "hash": "aygCN9OEGy7aJjdCsz63lbhALGidsUJjE6RIJybpzrI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -564,7 +3252,7 @@
           "hash": "XrjENDm6qGQbHjzHhnYvGVw96djF5awBbdx0VkResk4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -576,7 +3264,7 @@
           "hash": "J6m9RI/jTTKXVyrwTz4zpopnN8ddUqaj+jHn2NeRxR0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -588,7 +3276,7 @@
           "hash": "ZSfH+ptilUa226B0K8znRTto/uZezFCJecoGKru3zoE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +3288,7 @@
           "hash": "zZIXhrhAmgU93xG70kVLH/HmUfTPsEg8iETGDIgmgxc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -612,7 +3300,7 @@
           "hash": "ED51IeIVkWtT7pIM+ycN/NROOd3O5OvXcE0AR4jz3Rs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -624,7 +3312,7 @@
           "hash": "kHvZ/yu5nqBqktsA09ysVwZQHO5xcaMML4p7COPDJuc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -636,7 +3324,7 @@
           "hash": "/hXR1QEOpcZgDIWRrfV66Nv6B4HrSlb82GZoFACFFTk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -648,7 +3336,7 @@
           "hash": "NUcXErMvUr4VDjjV4ZK8pUFdJn6S5HVGBcIlWeKtWSs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -660,7 +3348,7 @@
           "hash": "mixqWfiJWz+Yjq/I4sYPwJdyfDE7EnYAAwHjsmW+v3A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -672,7 +3360,7 @@
           "hash": "el0IxDSYXXtVL0kMRKUfufgYJCsyOaEMRiiq+SJx7AI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -681,10 +3369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VFramework.Runtime.GameObjectExtension.html",
-          "hash": "Nzx2nBYcou5FMCD32s56xTUb/cZH6+RZNTxKJ1b74KM="
+          "hash": "UfD6PoTGIYgJE6R1MY/DQrcPyq/6aSkY3jVVoq6ycb8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -696,7 +3384,7 @@
           "hash": "S6+ZOULnTrDItfzrP5r7BSmPkOIWDQtpOAqLzedonRQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -708,7 +3396,7 @@
           "hash": "W/36IHOgXqYdVjB8tgaqT8Cu3rN6S1QMPLZQcxq1bA0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -720,7 +3408,7 @@
           "hash": "pxY+wdk57NQ3JFjBpl5DNL87iwnMFdZA9TtbnP/aEkM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -732,7 +3420,7 @@
           "hash": "gPEzB5zx5OgSKPS3nJjlEcdhPh1U3Nqoz4sGJN8ehU0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -744,7 +3432,31 @@
           "hash": "Ww7vxBhG3E/9EwSgrmB+ed+874wxyPf1JWEookL1mBU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VFramework.Runtime.ProcedureBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VFramework.Runtime.ProcedureBase.html",
+          "hash": "Ce3LALTCwUw+9YOCPdju3o/vfT8hEZoJ4II0Bz/4pUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VFramework.Runtime.ProcedureManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VFramework.Runtime.ProcedureManager.html",
+          "hash": "/aeA4y74M85W0TVBSjRCtWtvOvLblLsktxk/5IoBvhc="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -756,7 +3468,7 @@
           "hash": "d9WxYXDFsOLTBgBx/ejRu1MM8l55IfWLXc5wJS076H4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -768,7 +3480,7 @@
           "hash": "XwQpePG0IxSJVyiWZhPgq7Vf20JmLcs1He9htfw+roY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -780,7 +3492,7 @@
           "hash": "M8YDMCRBh9NeSDzwjE8g+JX1locP+ZvP2KAFIdo9ok4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -792,7 +3504,7 @@
           "hash": "4if/p5rB5gGlwdyItui/LfTH6STYskhtvZQ/TMFWSjQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -804,7 +3516,7 @@
           "hash": "02SuPdcL1YL224ME9sbAQfK5I1k/ULgY2+ShiiAf9gc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -816,7 +3528,7 @@
           "hash": "rxaqzbwly1VoHAmPFqgYaf68NiH9R/t6RvPbj57wHYk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -828,7 +3540,7 @@
           "hash": "k8kgQ4+2ahYEnXF5+yEiGmamekLZOAqlaP8+Nhvgj1g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -840,7 +3552,7 @@
           "hash": "Fq4LOfus8Xy482O6j+rECjduy0Qa2Bd4MtgXAOXSFuo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -852,7 +3564,7 @@
           "hash": "UVwFfaJwF/1kqGdBvVpT+Upv+CNtIAgq8MGlnHDh/Yo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,10 +3573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VFramework.Runtime.VTools.html",
-          "hash": "8vtulTaYOO1O7/v5INZSw77Ii8qMQ5CuSFEknREIwM0="
+          "hash": "cVDwBSBL9iuK51ADA6dOkZl7hSMbicBIw8jW8B5v+Jo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -876,7 +3588,7 @@
           "hash": "HxJTG6ifIEcgyL9AUXMVRrHmZuaD+STD8ExGeJuOzHw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -888,7 +3600,7 @@
           "hash": "X0foBxHu+QgRwvL1L5CV81u1sn8eCrV2SQxPF0Am01o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -900,7 +3612,7 @@
           "hash": "ZZqG/OfzHtrr41cjhjrhWjgJtajW5aa7YE1RUhZ5LCg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -909,10 +3621,766 @@
       "output": {
         ".html": {
           "relative_path": "api/VFramework.Runtime.html",
-          "hash": "JOvDzuEvY6tA259/GTzq0vJB7JP/g0gIbPjqWmqVFgQ="
+          "hash": "3kkmhLY0y9uJKJQU8a5UcrGs5rB7Fqii2AU26mOfj4s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.AssetBundleBuildPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.AssetBundleBuildPanel.html",
+          "hash": "e18+gOXL5fNIIPCWHYchn0dgoSPYePvh/0054efVGZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.AssetBundleManager.AsyncOperationDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.AssetBundleManager.AsyncOperationDelegate.html",
+          "hash": "BVYg/M/cDhtXDZn9T4ZFOsinn02hBvUsScdSSmjI4Jg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.AssetBundleManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.AssetBundleManager.html",
+          "hash": "4eaXPmPuPrOzvTBBODrr5nb4H9kQ9ojouLq6BCJNcr8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.AssetBundlesPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.AssetBundlesPanel.html",
+          "hash": "L4tMrAcAeB4QjzF9VLk2KC7Z1CtGvMsMo/Eaer0Nc8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.AssetListTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.AssetListTree.html",
+          "hash": "L/tF+F6JjK3jlCkYnOxBBD6LSiafpqdSrBKC436tL9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.AssetTreeItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.AssetTreeItem.html",
+          "hash": "JAp1bvnw90/FK7NPU/GgioocW91v9/g3wIZgnOuFlcI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.BundleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.BundleInfo.html",
+          "hash": "W0lL2hi2o6AhIbtAy7aKmY8LuOdK1+UBTkQjE1rSMoM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CheckResUpdateRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CheckResUpdateRequest.html",
+          "hash": "n+JuOjMiIn3R/HcrtxtxNY5xgqPqXjVR3cKIFL7CsxA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CheckResUpdatesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CheckResUpdatesRequest.html",
+          "hash": "KYx9+ne+szh9ueBlkzPsqQXcyuCbgm3og0gEilDe1rM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CheckUpdateResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CheckUpdateResult.html",
+          "hash": "SUv6H6CscdiigmX+OQ0Wx2Dd4y0FuSwBwZaK2hhng24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CompressOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CompressOptions.html",
+          "hash": "LqOTg//taNzwD8CAA3VMA0OW7MAjGn5a/Yu8vZAp6YM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CopyFileRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CopyFileRequest.html",
+          "hash": "VQnwuki37hZVCr04T2vI1TWRlBVGo2MXdU1BpX/yeFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CoroutineStarter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CoroutineStarter.html",
+          "hash": "gvoTX++sWZyOxsPbf7cq9Hs8vh7g9+iatkq3Mlxlm0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.CustomAsyncOperation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.CustomAsyncOperation-1.html",
+          "hash": "AcfUXMjCRa90jqtD+HTSoXEyztY4pd7cwujoU718lkM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.DefaultServerFilePath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.DefaultServerFilePath.html",
+          "hash": "n7syAAHDasvB1gS34RLg3KcmRfNKPHYvvRahH0vgRMI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.DownloadFileRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.DownloadFileRequest.html",
+          "hash": "AnlUbWtgOqO3GY6CUI85o63rt4UsqmERLCl989P9jHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.DownloadFilesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.DownloadFilesRequest.html",
+          "hash": "F5BCZ8bVRYMSvrY0dS6S7EM3SE80ijfCFpDNHe3nSf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.DownloadObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.DownloadObjectInfo.html",
+          "hash": "LEwXVVU/eG3b8pkAhanR7pMqUI3Gdcp8+h6Cn72mdNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.DownloadOneAssetBundleRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.DownloadOneAssetBundleRequest.html",
+          "hash": "5dmPP9DEoQKnDOrZ3JzV+eVOHLlNvicLCFa8fbLRnvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ExtractResRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ExtractResRequest.html",
+          "hash": "8uibo+sgEYZVtHwC/XoLM8LKoGkMoJvf0HBonZ1/P0Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.FileTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.FileTools.html",
+          "hash": "jcTzR7bC2RdKrqgifWSZoqY6bKLsdN7O78PIigkF1IQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.GetFileFromServerRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.GetFileFromServerRequest.html",
+          "hash": "ZaANjheCZN7F2hdjrTgra9fmo178yZw9K4CAk/O+Vog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.GetProjectDependenciesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.GetProjectDependenciesRequest.html",
+          "hash": "KFanL5oB8q1DA4bgYG8rRIgT30vcujLEbZ4l3y676Ms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.GetProjectVersionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.GetProjectVersionRequest.html",
+          "hash": "JfjrPpeFRlxRZ8o4WwcYItNCzNB16CTm1CEUJI0sI8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.IGetProjectVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.IGetProjectVersion.html",
+          "hash": "35g+h1NllRyxAvJ7LWh7PhwpZyYisuCwRfjaPUD9kIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.IOnBuildComplete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.IOnBuildComplete.html",
+          "hash": "AfZ7s2zeeYgxgcmDhsBIyH9srADBRweL4Un5zl5cMG8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.IServerFilePath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.IServerFilePath.html",
+          "hash": "ULYkYKavSsvt86izQ9ur4zCvnt35p7WxHWZCcPa9yIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.InfoPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.InfoPanel.html",
+          "hash": "+4cIQLsLttGusFU/qb7tGN1AMoJnlJt0U0T81kTTqCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.InitializeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.InitializeRequest.html",
+          "hash": "MEVHuDQVRd1puDctorDKsaIsL9M5rZTxlFJlowZt+C0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.IsHaveBuiltInResRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.IsHaveBuiltInResRequest.html",
+          "hash": "ndOx040pZyHLz8g6fp3MY2ifckVLJgirBxi/n2YSTIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ListShowProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ListShowProjects.html",
+          "hash": "jwygY9u1bv/ClTnfBZy3ZGvt5ew3wTZpzEABfIgQyjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.LoadAllAssetBundlesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.LoadAllAssetBundlesRequest.html",
+          "hash": "qtvJ51T9QqUuv3qKPyBTSczAaRAOXnUYcQ2+Eoh6zaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.LoadAssetBundleRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.LoadAssetBundleRequest.html",
+          "hash": "jF/W7BwCF15G1uZGsiNaeP0DhAkyT4KqbAId75MDiLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.LoadAssetRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.LoadAssetRequest.html",
+          "hash": "tTs+tsV7TNF5TnzSUiu31V18Jjo/h+LM4LK4TiovHqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.LoadAssetsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.LoadAssetsRequest.html",
+          "hash": "SUrLHX5+otTvHyLTtpnuybCmvPVTB7+B4wXQhscPKOs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.LoadMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.LoadMode.html",
+          "hash": "wvOQHB30gsxS+f6t9HmessqmL7okkieXiPHVKu79xnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.OptimizeResTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.OptimizeResTree.html",
+          "hash": "+KAVQ2jMV+5PKjeZ5tV/pUPol2V46msDdthiVdlk6Dc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.PlayerBuildProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.PlayerBuildProcessor.html",
+          "hash": "p+hJRcU7j/BV3E8KVtodDa1OVHoNg1JvXRJSRWii+js="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.Profile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.Profile.html",
+          "hash": "yU5odU0k2cBaSppC9mJWTQ+XFf1j5+M+wDSLaC07cEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ProfileConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ProfileConfig.html",
+          "hash": "6mYXeFBrC16RUPX0UHOHBehpFfrXU3mkzl5e3axVAW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ProfileTreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ProfileTreeView.html",
+          "hash": "cSaRwh4dNBXAggIXCXjx5ViyHzitHkLGsRWoymnfwvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ProfileWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ProfileWindow.html",
+          "hash": "adBHeZZJQuZ9izIm0NS1ifBC9bcIsd1J43V9ELH6k6g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ProjectBuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ProjectBuild.html",
+          "hash": "KdBOLXx8znnfJFyJ5KGTewo5x3rBOrPANAeqYsNioyQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ProjectBuildInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ProjectBuildInfo.html",
+          "hash": "MnwUJDIh+/C2nhjYSXgf9WbuYrYvewpkN9CWSigYFqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ProjectListTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ProjectListTree.html",
+          "hash": "gUaZCd9YjZXpB+kJOzwENWapmTNFFXohpReQwnIm+ZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ReadyResRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ReadyResRequest.html",
+          "hash": "vckr+bydQ632OTr2pNIfKTZRDJg1j/xemEm2/9nbiKY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.SelectProjectTreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.SelectProjectTreeView.html",
+          "hash": "dS4si2NihjpbAI2vEAysxVSsIQTKiyfiBzwOA33Hbz4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.SelectProjectTreeViewHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.SelectProjectTreeViewHeader.html",
+          "hash": "AND+uwzZl21GjgxBbrVJZXJfhtrhJaWUajB49DWV1jE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.UpdateMode.html",
+          "hash": "eZ+150hDBclW1e10mj14HjROCkkPPtn9QtdtZeJTteE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.UpdateOrDownloadResRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.UpdateOrDownloadResRequest.html",
+          "hash": "aT44NGWh2sCNjSQ3cgEwFgPCkX09ZKGFZoMePUmsKp4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.UpdateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.UpdateType.html",
+          "hash": "/5MPjnk5oQLo1FOrErTOv/bZ08UmtR7E1ChStTrUeTk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ValidBuildTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ValidBuildTarget.html",
+          "hash": "U7c/mhSEHi7xpXtblaTsvG2iaEDPR/Xou3DqLsiFE2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.VerifyResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.VerifyResult.html",
+          "hash": "3tDCJKmU1A8sS6nL5y5gjV1drZtQ4FDKzvSzLeA8Mx8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFABTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFABTools.html",
+          "hash": "GY3PYAqe3dcNmdOERh/JpEQ2/pIAMz6mYU+j14JqL8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFAssetBundleManagerCreate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFAssetBundleManagerCreate.html",
+          "hash": "bstJ2+PnzUukbk2rqXcquDWJYyuHx7nuwh4P4dtIte0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFAssetBundleManagerHelp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFAssetBundleManagerHelp.html",
+          "hash": "oZXlAl1d8OA64ALwNkjbKjFvc+Yoz6cNWK/5mEJyQiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFAssetBundleManagerMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFAssetBundleManagerMenu.html",
+          "hash": "QMA5p4BVMw47RQPiRaWT6bh0mLnsXdTm6I+KZ95c/f8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFAssetBundleManagerProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFAssetBundleManagerProjects.html",
+          "hash": "VMTnyXhrQvC+X6IWdcJLRy1KuKAaK9kD9n9wT9ybT/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFAssetBundleProjectMain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFAssetBundleProjectMain.html",
+          "hash": "WQt6+Oqh5o/AovO93QM4NxCUs95ai6FUMspcE3ZMUmk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFAssetBundleProjectPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFAssetBundleProjectPanel.html",
+          "hash": "hbW8DswXdS3Rpfibg/wc4ukIFLVyXfl1j5rgrl2dgjw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.XFOptimizeResWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.XFOptimizeResWindow.html",
+          "hash": "prQW9pv12Kn58agvODx6sTJQmQBZaEF+/4bISUz8rnk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.ZipTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.ZipTools.html",
+          "hash": "MwRWBRasL9uD7htwhLcboeKGF61b9l64bEBg6EHE+bo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XFABManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XFABManager.html",
+          "hash": "5LHPTz6aBe3M6xbEWClrVuXLSGkE0zMktzJRGqEm4Ig="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -924,7 +4392,7 @@
           "hash": "S6HH25ziEUKWJk9c1SDkf4tv9pt+s1Em+CanR3D4XJQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -933,7 +4401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "w27r/OkZ0vAchvSlea/Y87AUe5f3dtHreYvoRN8r840="
+          "hash": "vuLWgJNYln/xTk02AAjqb57/4XHI2QlMle+ZQMKrUfg="
         }
       },
       "is_incremental": false,
@@ -945,10 +4413,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/LJF接口更新文档.html",
-          "hash": "I+A8sYSq0wJzRuFMFpwNhRGqQeaythtu0q6sLllId3c="
+          "hash": "rpEd+EmGKzuv7stJQsRFKk4Lf7hrY1d9qpZGOeDzxhY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -957,10 +4425,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/VFramework框架更新文档.html",
-          "hash": "D8QPMniGYTjU8GQVnh3cO0hT9y2jyCaWB6z9d3rzmRE="
+          "hash": "/MO86eN13uKj850WqGtyFhQnSbQTWYivtgEZgEZLyRc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1013,13 +4481,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 2
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 76,
-          "skipped_file_count": 76
+          "total_file_count": 365,
+          "skipped_file_count": 2
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
